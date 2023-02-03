@@ -1,0 +1,58 @@
+version: '3.2'
+
+services:
+  traefik:
+    networks:
+      default:
+        aliases:
+          - web.smartrns.net
+    image: "traefik:v2.4"
+    container_name: "traefik"
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.web-secure.address=:443"
+      - "--providers.file.directory=/configuration/"
+      - "--providers.file.watch=true"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./configuration/:/configuration/"
+
+  cdm:
+    image: "entroserv/cryptdomainmgr:latest"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./configuration/:/configuration/"
+      - "./cdmconf/:/etc/cryptdomainmgr"
+    command:
+      - "[cdm]    postwait=86400"
+
+  web:
+    image: jekyll/jekyll:latest
+    volumes:
+      - "./docs/:/srv/jekyll/"
+      - "./vendor/bundle/:/usr/local/bundle/"
+    command: bash -c "bundle install && bundle exec jekyll serve --drafts --watch --force_polling --incremental --livereload --host 0.0.0.0"
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web-app.entrypoints=web"
+      - "traefik.http.routers.web-app.rule=Host(`web.smartrns.net`)"  ## Hier eure Domain eingeben ##
+      - "traefik.http.middlewares.web-app-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.web-app.middlewares=web-app-https-redirect"
+      - "traefik.http.routers.web-app-secure.entrypoints=web-secure"
+      - "traefik.http.routers.web-app-secure.rule=Host(`web.smartrns.net`)" ## Hier eure Domain eingeben ##
+      - "traefik.http.routers.web-app-secure.tls=true"
+      - "traefik.http.routers.web-app-secure.service=web-app"
+      - "traefik.http.services.web-app.loadbalancer.server.port=4000"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.web-app-secure.middlewares=secHeaders@file"
+
+
+
