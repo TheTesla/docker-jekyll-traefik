@@ -1,4 +1,6 @@
 cdmconf/inwxcreds.conf
 vendor/
 docs/_site
-configuration/
+configuration/certs
+configuration/files
+configuration/relaodtrigger

@@ -38,7 +38,8 @@ services:
     volumes:
       - "./docs/:/srv/jekyll/"
       - "./vendor/bundle/:/usr/local/bundle/"
-    command: bash -c "bundle install && bundle exec jekyll serve --drafts --watch --force_polling --incremental --livereload --host 0.0.0.0"
+        #command: bash -c "bundle install && bundle exec jekyll serve --drafts --watch --force_polling --incremental --host 0.0.0.0"
+    command: bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0"
     restart: always
     labels:
       - "traefik.enable=true"
@@ -52,7 +53,9 @@ services:
       - "traefik.http.routers.web-app-secure.service=web-app"
       - "traefik.http.services.web-app.loadbalancer.server.port=4000"
       - "traefik.docker.network=proxy"
-      - "traefik.http.routers.web-app-secure.middlewares=secHeaders@file"
+      - "traefik.http.routers.web-app-secure.middlewares=secHeaders@file,web-compress"
+        #- "traefik.http.routers.web-app-secure.middlewares=web-compress"
+      - "traefik.http.middlewares.web-compress.compress=true"
 
 
 
