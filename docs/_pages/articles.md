@@ -1,8 +1,8 @@
 ---
 title: Wissen
-layout: collection
+layout: tag
+taxonomy: article
 permalink: /articles/
-collection: articles
 entries_layout: grid
 classes: wide
 ---

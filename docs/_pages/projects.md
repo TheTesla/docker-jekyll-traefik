@@ -1,8 +1,8 @@
 ---
 title: Projekte
-layout: collection
+layout: tag
+taxonomy: project
 permalink: /projects/
-collection: projects
 entries_layout: grid
 classes: wide
 ---

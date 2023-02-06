@@ -5,6 +5,8 @@ main:
     url: /ideas/
   - title: "Wissen"
     url: /articles/
+  - title: "Tags"
+    url: /tags-archive/
   - title: "Blog"
     url: /year-archive/
 

@@ -1,8 +1,8 @@
 ---
 title: Ideen
-layout: collection
+layout: tag
+taxonomy: idea
 permalink: /ideas/
-collection: ideas
 entries_layout: grid
 classes: wide
 ---
