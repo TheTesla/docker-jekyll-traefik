@@ -78,8 +78,10 @@ header:
 footer:
   links:
     - label: "Impressum"
+      icon: "fa fa-fw fa-info"
       url: "/impressum"
     - label: "Datenschutz"
+      icon: "fa fa-fw fa-shield-alt"
       url: "/privacy"
 
 # Exclude from processing.
