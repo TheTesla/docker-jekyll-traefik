@@ -49,7 +49,9 @@ Für die Auslieferung der Internetseite zusammenhängend erhobene minimal erford
 * URL, die der Besucher abruft
 * Abrufzeitpunkt
 
-Weitere Daten zum Zweck der besseren Darstellung und Sicherstellung der technischen Kompatibilität werden verarbeitet:
+Die Verarbeitung erfolgt auf der Rechtsgrundlage des berechtigten Interesses des Verantwortlichen (Art. 6 Abs. 1 lit. f DSGVO), weil dies zur technische Funktion zwingend erforderlich ist. Die technische Infrastruktur benötigt diese Informationen, um die vom Betroffenen angeforderte Unterseite an das abrufende Endgerät zuzustellen.
+
+Zum Zweck der besseren Darstellung und Sicherstellung der technischen Kompatibilität werden weitere Daten verarbeitet:
 
 * Betriebssystem
 * Browser
