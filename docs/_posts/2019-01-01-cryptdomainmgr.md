@@ -3,7 +3,7 @@ layout: posts
 title: "Cryptdomainmgr - Automatisierung von TLS-Zertifikaten, TLSA (DANE) und DKIM"
 date:   2019-01-01 17:54:25 +0100
 header:
-  teaser: /assets/images/Profilbild240.webp
+  teaser: /assets/images/cdmlogo.svg
 categories: jekyll update
 tags:
   - project
@@ -16,7 +16,7 @@ tags:
 
 | Projektdaten |
 | ------------- | --------------------------------------------------------------- |
-| Logo | ![Logo für das Projekt Cryptdomainmgr](cdmlogo.svg "Cryptdomainmgr-Logo") |
+| Logo | ![Logo für das Projekt Cryptdomainmgr](/assets/images/cdmlogo.svg "Cryptdomainmgr-Logo") |
 | Quellcode | [Cryptdomainmgr auf Github](https://github.com/TheTesla/cryptdomainmgr) |
 | Paket        | [Cryptdomainmgr auf Pypi](https://pypi.org/project/cryptdomainmgr/) |
 | Lizenz       | AGPLv3 |
@@ -41,7 +41,7 @@ Der _Cryptdomainmgr_ wird auf das System installiert, auf welchem der Web- oder 
 
 Um weitere DNS-Server, Zertifikatsanbieter und Dienste zu unterstützen kann _Crypdomainmgr_, ohne Änderungen am Hauptprogramm vornehmen zu müssen, mit entsprechenden Softwaremodulen erweitert werden. 
 
-![Diagramm welches den Datenfluss zwischen Cryptdomainmgr und externen Diensten zeigt](cdmStruktur.svg "Verknüpfung mit externen Diensten")
+![Diagramm welches den Datenfluss zwischen Cryptdomainmgr und externen Diensten zeigt](/assets/images/cdmStruktur.svg "Verknüpfung mit externen Diensten")
 
 ## Installation
 

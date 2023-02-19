@@ -3,7 +3,7 @@ layout: posts
 title: "Public-Private-Key-Verfahren"
 date:   2019-01-01 17:54:25 +0100
 header:
-  teaser: /assets/images/Profilbild240.webp
+  teaser: /assets/images/asymetricCrypto.svg
 categories: jekyll update
 tags:
   - knowledge
@@ -19,15 +19,15 @@ Die Idee ist nun einen der beiden Schlüssel zu veröffentlichen. Diesen kann nu
 
 Wir können das anhand eines Vorhängeschlosses veranschaulichen. Der öffentliche Schlüssel ist das Gegenstück zum private Schlüssel. In unserem Beispiel ist der öffentliche Schlüssel gelb. Der private Schlüssel hat die Komplementärfarbe Blau. Beide Farben zusammen heben sich gegenseitig auf, die Nachricht ist entschlüsselt. 
 
-![Asymetrische Schlüssel](asymetricCrypto.svg)
+![Asymetrische Schlüssel](/assets/images/asymetricCrypto.svg)
 
 Das gelbe Vorhängeschloss ist öffentlich zugänglich. Will jemand dem Besitzer des blauen Schlüssels eine Nachricht verschlüsselt zukommen lassen, legt er die Nachricht in eine Kiste, welche er mit dem Vorhängeschloss verschließt. Im Set mit dem Schloss ist zwar auch ein gelber Schlüssel enthalten, dieser kann das Schloss aber nicht aufschließen. Mathematisch ist der gelbe Schlüssel das selbe Objekt wie das gelbe Vorhängeschloss. Beide Symbole beschreiben nur eine unterschiedliche Verwendung. 
 
-![Asymetrisch Verschlüsseln](asymetricEncrypt.svg)
+![Asymetrisch Verschlüsseln](/assets/images/asymetricEncrypt.svg)
 
 Der Empfänger öffnet das Schloss mit seinem blauen Schlüssel und kann die Nachricht lesen.
 
-![Asymetrisch Entschlüsseln](asymetricDecrypt.svg)
+![Asymetrisch Entschlüsseln](/assets/images/asymetricDecrypt.svg)
 
 
 ## Digitale Unterschrift
