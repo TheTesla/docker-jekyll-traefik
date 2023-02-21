@@ -3,7 +3,7 @@ layout: posts
 title: "Schadstofffreies Komfort-Luftbett ohne geplante Obsoleszenz (Material: TPU)"
 date:   2019-01-01 17:54:25 +0100
 header:
-  teaser: /assets/images/Profilbild240.webp
+  teaser: /assets/images/inflated.png
 categories: jekyll update
 tags:
   - project
@@ -11,13 +11,13 @@ tags:
 
 # Schadstofffreies Komfort-Luftbett ohne geplante Obsoleszenz (Material: TPU)
 
-![Zeichnung mit Maßen des aufgepumpten Luftbetts](inflated.png?resize=768,512)
+![Zeichnung mit Maßen des aufgepumpten Luftbetts](/assets/images/inflated.png?resize=768,512)
 
-![Foto des aufgepumpten Luftbetts - Vorderseite](LuMafrf.jpg?resize=512,768)
+![Foto des aufgepumpten Luftbetts - Vorderseite](/assets/images/LuMafrf.jpg?resize=512,768)
 
-![Foto des aufgepumpten Luftbetts - Rückseite](LuMafrb.jpg?resize=512,768)
+![Foto des aufgepumpten Luftbetts - Rückseite](/assets/images/LuMafrb.jpg?resize=512,768)
 
-![Foto des Kartonstapels](LuMafrK.jpg?resize=512,768)
+![Foto des Kartonstapels](/assets/images/LuMafrK.jpg?resize=512,768)
 
 
 Video: https://youtu.be/zQKNOrybAm8
@@ -61,35 +61,35 @@ Viele Luftbetten haben mehrere Designschwächen, welche der Lebensdauer abträgl
 
 Folgendes Bild zeigt das Problem der Verbundstoffe. Nehmen wir an, Polyestergewebe (1 und 4) mit einer dünnen TPU-Beschichtung (2 und 3) wird verschweißt. (orange Linie zeigt Schweißnaht) Die dünne TPU-Schicht ist zwar sehr elastisch, aber nicht sehr zugfest. Das dickere Polyestergewebe ist zwar sehr zugfest aber wenig elastisch. Der Verbundstoff soll idealerweise elastisch und zugfest sein. In der Praxis funktioniert die Kombination nicht immer.
 
-![Zeichnung Kräfte im Verbundmaterial nahe der Schweißnaht](plannedobsolescence_composite.svg)
+![Zeichnung Kräfte im Verbundmaterial nahe der Schweißnaht](/assets/images/plannedobsolescence_composite.svg)
 
 Das Material an einer Außennaht des Luftbetts ist im Beispiel rechtwinklig nach außen gezogen. Der äußere Biegeradius befindet sich innen, d. h. auf der Seite der Schweißnaht bzw. TPU-Schicht. Weil TPU sehr elastisch ist, nimmt diese Schicht nur wenig der Zugkraft auf. Die meiste Kraft nimmt das Polyestergewebe. Da dieses Gewebe eine sehr geringe Elastizität hat, konzentriert sich fast die gesamte Kraft auf der längeren Seite der Biegung, da dort das Material am stärksten gedehnt ist. Die hohe Zugspannung ist im Bild mit langen Pfeilen visualisiert.
 
 Auch in der Schweißnaht konzentriert sich die gesamte Kraft auf eine kleine Fläche. (rote Ellipse) Die Schweißnaht besteht zwar aus elastischem TPU, da die Schicht aber sehr dünn ist, kann sie sich nicht weit genugt dehnen, damit sich die Kraft auf eine größere Fläche verteilen kann. Wegen der geringeren Zufestigkeit, reißt die TPU-Schicht dort auf, wie folgendes Bild zeigt:
 
-![Zeichnung TPU-Beschichtung auf Polyestergewebe bricht an Schweißnaht](plannedobsolescence_broken.svg)
+![Zeichnung TPU-Beschichtung auf Polyestergewebe bricht an Schweißnaht](/assets/images/plannedobsolescence_broken.svg)
 
 Häufig ist jedoch die Verbindung zwischen dem Polyestergewebe und der TPU-Schicht schwächer als die TPU-Schicht selbst. In diesem Fall löst sich die TPU-Schicht vom Polyestergewebe. Das Foto zeigt, wie sich das Polyestergewebe an der Schweißnaht von der TPU-Schicht vollständig gelöst hat. Die TPU-Schicht ist noch intakt:
 
-![Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](plannedobsolescence_detached.svg) ![Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](PolyesterTPUdetached.jpg?resize=512,256)
+![Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/plannedobsolescence_detached.svg) ![Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/PolyesterTPUdetached.jpg?resize=512,256)
 
 Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird vielleicht nicht die gleiche Kratzfestigkeit der Oberfläche erreicht. Auch die allgemeine Zugfestigkeit ist bei gleicher Materialdicke geringer. Jedoch ist die Schweißnaht die Schwachstelle. Sie wird entlastet, weil das Grundmaterial elastischer ist. Die Kraft verteilt sich auf eine größere Fläche innerhalb der Schweißnaht. (grüne Ellipse)
 
-![Zeichnung einer robusten Schweißnaht dicker TPU-Folie](plannedobsolescence_tpu.svg)
+![Zeichnung einer robusten Schweißnaht dicker TPU-Folie](/assets/images/plannedobsolescence_tpu.svg)
 
 #### Luftbetten aus PVC
 
 Auch dicke PVC-Folie sollte lange halten. Damit PVC ausreichend elastisch wird, müssen Weichmacher eingebracht werden. Diese Weichmacher können z. B. bei Kontakt mit Fett aus dem Material austreten. Folgendes Foto zeigt den glänzenden Weichmacher, der aus der blauen PVC-Folie ausgetreten ist:
 
-![Foto von austretendem Weichmacher](plasticizerrelease.jpg?resize=384,384)
+![Foto von austretendem Weichmacher](/assets/images/plasticizerrelease.jpg?resize=384,384)
 
 Dadurch wird das Material spröde. Es zerknittert:
 
-![Foto von sprödem PVC](roughPVC.jpg?resize=384,384)
+![Foto von sprödem PVC](/assets/images/roughPVC.jpg?resize=384,384)
 
 Wird es dann stark gebogen, kann es brechen wie die Naht des transparenten PVC:
 
-![Zeichnung gebrochene Schweißnaht PVC](plannedobsolescence_brokenpvc.svg) ![Foto gebrpchene Schweißnaht PVC](brokenseam.jpg?resize=384,384)
+![Zeichnung gebrochene Schweißnaht PVC](/assets/images/plannedobsolescence_brokenpvc.svg) ![Foto gebrpchene Schweißnaht PVC](/assets/images/brokenseam.jpg?resize=384,384)
 
 ### Weitere konstruktive Mängel
 
@@ -123,19 +123,19 @@ Mit minimalem Aufwand ist eine mängelfreie Konstruktion möglich:
 
 Folgendes Bild zeigt die Rückseite des leeren Luftbettes. Die schwarzen Kreise sind die Ventile:
 
-![Luftbett im leeren Zustand](empty.png?resize=640,480)
+![Luftbett im leeren Zustand](/assets/images/empty.png?resize=640,480)
 
 Aufgepumpt werden folgende Maße erreicht:
 
-![Luftbett im aufgepumpten Zustand](inflated.png?resize=640,480)
+![Luftbett im aufgepumpten Zustand](/assets/images/inflated.png?resize=640,480)
 
 Die Ventile haben 1,8 cm Innendurchmesser. Zum Ablassen der Luft kann der Innenteil geöffnet werden:
 
-![Zeichnung der Ventile](valvesdraw.png?resize=640,480)
+![Zeichnung der Ventile](/assets/images/valvesdraw.png?resize=640,480)
 
-![Foto Ventil offen zum Aufpumpen](valveinflatephoto.jpg?resize=400,300)![Foto Ventil offen zum Luftablassen](valveopenedphoto.jpg?resize=400,300)
+![Foto Ventil offen zum Aufpumpen](/assets/images/valveinflatephoto.jpg?resize=400,300)![Foto Ventil offen zum Luftablassen](/assets/images/valveopenedphoto.jpg?resize=400,300)
 
-![Foto Ventil geschlossen](valveclosedphoto.jpg?resize=400,300)
+![Foto Ventil geschlossen](/assets/images/valveclosedphoto.jpg?resize=400,300)
 
 Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) odetr [eBay](https://ebay.to/33wltt0) erhältlich.
 

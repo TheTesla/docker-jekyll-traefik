@@ -3,7 +3,7 @@ layout: posts
 title: "Bondora Report - P2P-Kredit-Portfolio darstellen"
 date:   2019-01-01 17:54:25 +0100
 header:
-  teaser: /assets/images/Profilbild240.webp
+  teaser: /assets/images/report.svg
 categories: jekyll update
 tags:
   - project
@@ -20,7 +20,7 @@ Die automatische Aufteilung des anzulegenden Geldes erfolgt mit Hilfe des _Portf
 
 Bondora bietet eine API, über die aktuelle Investitionsdaten, aber auch der historische Verlauf der Investments, Buchungen, Zinszahlungen usw. abgerufen werden können. Ein kleines Python-Programm mit matplotlib-SVG-Export generiert schöne Diagramme, welche die Wertentwicklung des Kontos zeigen:
 
-![Diagramm über den Wertverlauf des Portfolios.](/images/report.svg)
+![Diagramm über den Wertverlauf des Portfolios.](/assets/images/report.svg)
 
 Die grüne Kurve zeigt den Wert der aktuellen Kredite. Die rote Kurve zeigt den Kontostand und die blaue Kurve die Zinszahlungen aus den Krediten. Einzahlungen werden durch gelbe Kreise dargestellt. Die grünen Kreise zeigen die Provisionen aus dem Freunde-Werben-Partnerprogramm.
 

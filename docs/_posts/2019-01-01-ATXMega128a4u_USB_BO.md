@@ -3,7 +3,7 @@ layout: posts
 title: "Xmega128a4u USB Breakout Board"
 date:   2019-01-01 17:54:25 +0100
 header:
-  teaser: /assets/images/Profilbild240.webp
+  teaser: /assets/images/XMega128a4u_USB_BO.jpg
 categories: jekyll update
 tags:
   - project
@@ -27,5 +27,5 @@ Alle Details sind auf Github verfügbar. Die Inhalte sind urheberrechtlich gesch
 
 Das Produkt kann bei Seeedstudio bestellt werden. Schneller und einfacher, d. h. ohne Zoll, Einfuhrumsatzsteuer und Auslandsüberweisung, geht es direkt aus Deutschland bei [Watterott](https://www.watterott.com).
 
-![ATXMega128a4uBO](XMega128a4u_USB_BO.jpg)
-![ATXMega128a4uBOtopside](Xmega128a4u_USB_BO_f.jpg)
+![ATXMega128a4uBO](/assets/images/XMega128a4u_USB_BO.jpg)
+![ATXMega128a4uBOtopside](/assets/images/Xmega128a4u_USB_BO_f.jpg)
