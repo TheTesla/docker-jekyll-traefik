@@ -7,18 +7,29 @@ categories:
   - Hardware
 tags:
   - Projekt
+sidebar:
+  - title: "TPU Komfort-Luftbett"
+    image: /assets/images/LuMafrf.jpg?resize=512,768
+    image_alt: "Foto des aufgepumpten Luftbetts"
+    text: "[Produktseite](https://pionplex.de){: .btn .btn--info}"
+gallery:
+  - url: /assets/images/inflated.png 
+    image_path: /assets/images/inflated.png
+    alt: "Zeichnung mit Maßen des aufgepumpten Luftbetts"
+  - url: /assets/images/LuMafrf.jpg
+    image_path: /assets/images/LuMafrf.jpg
+    alt: "Foto des aufgepumpten Luftbetts - Vorderseite"
+  - url: /assets/images/LuMafrb.jpg
+    image_path: /assets/images/LuMafrb.jpg
+    alt: "Foto des aufgepumpten Luftbetts - Rückseite"
+  - url: /assets/images/LuMafrK.jpg
+    image_path: /assets/images/LuMafrK.jpg
+    alt: "Foto des Kartonstapels"
 ---
 
-# Schadstofffreies Komfort-Luftbett ohne geplante Obsoleszenz (Material: TPU)
 
-![Zeichnung mit Maßen des aufgepumpten Luftbetts](/assets/images/inflated.png?resize=768,512)
 
-![Foto des aufgepumpten Luftbetts - Vorderseite](/assets/images/LuMafrf.jpg?resize=512,768)
-
-![Foto des aufgepumpten Luftbetts - Rückseite](/assets/images/LuMafrb.jpg?resize=512,768)
-
-![Foto des Kartonstapels](/assets/images/LuMafrK.jpg?resize=512,768)
-
+{% include gallery caption="Luftbett aus der Serienproduktion" %}
 
 Video: https://youtu.be/zQKNOrybAm8
 

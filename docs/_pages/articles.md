@@ -2,9 +2,11 @@
 title: Wissen
 layout: collection
 collection: articles
-permalink: /articles/
+permalink: /Artikel/
 entries_layout: grid
 classes: wide
+author_profile: true
+author: Stefan Helmert
 ---
 
 

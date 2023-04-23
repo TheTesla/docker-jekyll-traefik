@@ -22,6 +22,7 @@ gallery:
     alt: "Foto des Breakout Boards von oben"
 ---
 
+{% include gallery caption="Fertig bestückte Platine aus der Serienproduktion" %}
 
 Endlich kann der ATXMega ohne Löten zum experiemntieren verwendet werden. Der Abstand der beiden Pinreihen des Breakout-Boards beträgt 22,86 mm. Damit passt es ideal auf ein Breadboard.
 
@@ -37,6 +38,5 @@ Alle Details sind auf Github verfügbar. Die Inhalte sind urheberrechtlich gesch
 
 Das Produkt kann bei Seeedstudio bestellt werden. Schneller und einfacher, d. h. ohne Zoll, Einfuhrumsatzsteuer und Auslandsüberweisung, geht es direkt aus Deutschland bei [Watterott](https://www.watterott.com).
 
-{% include gallery caption="Fertig bestückte Platine aus der Serienproduktion" %}
 
 

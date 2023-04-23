@@ -8,11 +8,12 @@ categories:
 tags:
   - Projekt
   - OpenSource
+sidebar:
+  - title: "Cryptdomainmgr"
+    image: /assets/images/cdmlogo.svg
+    image_alt: "Logo des Cryptdomainmgr"
 ---
 
-
-
-# Cryptdomainmgr - Automatisierung von TLS-Zertifikaten, TLSA (DANE) und DKIM
 
 | Projektdaten |
 | ------------- | --------------------------------------------------------------- |

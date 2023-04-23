@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Bondora Report - P2P-Kredit-Portfolio darstellen"
 date:   2019-01-01 17:54:25 +0100
 header:

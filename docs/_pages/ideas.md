@@ -1,9 +1,11 @@
 ---
 title: Ideen
-layout: tag
-taxonomy: Idee
-permalink: /ideas/
+collection: ideas
+layout: collection
+permalink: /Ideen/
 entries_layout: grid
 classes: wide
+author_profile: true
+author: Stefan Helmert
 ---
 

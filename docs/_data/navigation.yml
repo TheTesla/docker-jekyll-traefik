@@ -1,12 +1,8 @@
 main:
   - title: "Projekte"
-    url: /projects/
+    url: /Projekte/
   - title: "Ideen"
-    url: /ideas/
+    url: /Ideen/
   - title: "Wissen"
-    url: /articles/
-  - title: "Tags"
-    url: /tags-archive/
-  - title: "Blog"
-    url: /year-archive/
+    url: /Artikel/
 

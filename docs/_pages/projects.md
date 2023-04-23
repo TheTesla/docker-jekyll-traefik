@@ -1,10 +1,11 @@
 ---
 title: Projekte
-collection: articles
-layout: collection-tag
-taxonomy: Projekt
-permalink: /projects/
+collection: projects
+layout: collection
+permalink: /Projekte/
 entries_layout: grid
 classes: wide
+author_profile: true
+author: Stefan Helmert
 ---
 

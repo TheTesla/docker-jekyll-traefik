@@ -1,8 +1,8 @@
 ---
 layout: posts
 title: "Ansible Tine2.0"
-header:
-  teaser: /assets/images/Profilbild240.webp
+#header:
+#  teaser: /assets/images/Profilbild240.webp
 categories:
   - Software
 tags:

@@ -1,17 +1,14 @@
 ---
-layout: posts
+layout: single
 title: "Klimalüge?"
-date:   2019-01-01 17:54:25 +0100
-header:
-  teaser: /assets/images/Profilbild240.webp
+#header:
+#  teaser: /assets/images/Profilbild240.webp
 categories: jekyll update
 tags:
   - knowledge
 ---
 
 
-
-# Klimalüge?
 
 Gibt es nun den menschenverursachten Klimawandel oder nicht?
 
