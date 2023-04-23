@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Xmega128a4u USB Breakout Board"
+title: "ATXmega128a4u USB Breakout Board"
 header:
   teaser: /assets/images/XMega128a4u_USB_BO.jpg
 categories:
@@ -8,11 +8,20 @@ categories:
 tags:
   - Projekt
   - Elektronik
+sidebar:
+  - title: "ATXmega128a4u USB"
+    image: /assets/images/XMega128a4u_USB_BO.jpg
+    image_alt: "Foto des Breakout Boards"
+    text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
+gallery:
+  - url: /assets/images/XMega128a4u_USB_BO.jpg
+    image_path: /assets/images/XMega128a4u_USB_BO.jpg
+    alt: "Foto des Breakout Boards schräg von der Seite"
+  - url: /assets/images/Xmega128a4u_USB_BO_f.jpg
+    image_path: /assets/images/Xmega128a4u_USB_BO_f.jpg
+    alt: "Foto des Breakout Boards von oben"
 ---
 
-
-
-# Xmega128a4u USB Breakout Board
 
 Endlich kann der ATXMega ohne Löten zum experiemntieren verwendet werden. Der Abstand der beiden Pinreihen des Breakout-Boards beträgt 22,86 mm. Damit passt es ideal auf ein Breadboard.
 
@@ -28,5 +37,6 @@ Alle Details sind auf Github verfügbar. Die Inhalte sind urheberrechtlich gesch
 
 Das Produkt kann bei Seeedstudio bestellt werden. Schneller und einfacher, d. h. ohne Zoll, Einfuhrumsatzsteuer und Auslandsüberweisung, geht es direkt aus Deutschland bei [Watterott](https://www.watterott.com).
 
-![ATXMega128a4uBO](/assets/images/XMega128a4u_USB_BO.jpg)
-![ATXMega128a4uBOtopside](/assets/images/Xmega128a4u_USB_BO_f.jpg)
+{% include gallery caption="Fertig bestückte Platine aus der Serienproduktion" %}
+
+
