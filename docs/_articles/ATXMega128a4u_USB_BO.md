@@ -1,12 +1,13 @@
 ---
-layout: posts
+layout: single
 title: "Xmega128a4u USB Breakout Board"
-date:   2019-01-01 17:54:25 +0100
 header:
   teaser: /assets/images/XMega128a4u_USB_BO.jpg
-categories: jekyll update
+categories:
+  - Hardware
 tags:
-  - project
+  - Projekt
+  - Elektronik
 ---
 
 

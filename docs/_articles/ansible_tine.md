@@ -1,13 +1,13 @@
 ---
 layout: posts
 title: "Ansible Tine2.0"
-date:   2019-01-01 17:54:25 +0100
 header:
   teaser: /assets/images/Profilbild240.webp
-categories: jekyll update
+categories:
+  - Software
 tags:
-  - project
-  - oss
+  - Projekt
+  - OpenSource
 ---
 
 

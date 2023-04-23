@@ -1,13 +1,13 @@
 ---
-layout: posts
+layout: single
 title: "Cryptdomainmgr - Automatisierung von TLS-Zertifikaten, TLSA (DANE) und DKIM"
-date:   2019-01-01 17:54:25 +0100
 header:
   teaser: /assets/images/cdmlogo.svg
-categories: jekyll update
+categories:
+  - Software
 tags:
-  - project
-  - oss
+  - Projekt
+  - OpenSource
 ---
 
 

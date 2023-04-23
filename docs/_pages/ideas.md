@@ -1,7 +1,7 @@
 ---
 title: Ideen
 layout: tag
-taxonomy: idea
+taxonomy: Idee
 permalink: /ideas/
 entries_layout: grid
 classes: wide

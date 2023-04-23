@@ -1,12 +1,12 @@
 ---
 layout: posts
 title: "Schadstofffreies Komfort-Luftbett ohne geplante Obsoleszenz (Material: TPU)"
-date:   2019-01-01 17:54:25 +0100
 header:
   teaser: /assets/images/inflated.png
-categories: jekyll update
+categories:
+  - Hardware
 tags:
-  - project
+  - Projekt
 ---
 
 # Schadstofffreies Komfort-Luftbett ohne geplante Obsoleszenz (Material: TPU)

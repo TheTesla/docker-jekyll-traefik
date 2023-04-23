@@ -2,7 +2,7 @@
 title: Blog-Archiv
 layout: tags
 permalink: /tags-archive/
-#collection: projects
+collection: articles
 entries_layout: grid
 classes: wide
 ---

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "TLS-Zertifikate - digitaler Nachweis der Identität (digitale Zertifikate)"
 date:   2019-01-01 17:54:25 +0100
 header:

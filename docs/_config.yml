@@ -40,6 +40,12 @@ plugins:
 
 minimal_mistakes_skin: "air" #"default" ,  "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
+
+
 
 
 defaults:
@@ -61,6 +67,16 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _articles
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: single
+      author_profile: true
+      related: true
+      read_time: true
+      share: true
 
       #search_provider: algolia
 

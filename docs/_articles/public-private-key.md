@@ -1,12 +1,13 @@
 ---
-layout: posts
+layout: single
 title: "Public-Private-Key-Verfahren"
-date:   2019-01-01 17:54:25 +0100
 header:
   teaser: /assets/images/asymetricCrypto.svg
-categories: jekyll update
+categories:
+  - Theorie
 tags:
-  - knowledge
+  - Wissen
+  - Kryptografie
 ---
 
 # Asymmetrisches Kryptosystem - Public-Private-Key-Verfahren
