@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "TLS-Zertifikate - digitaler Nachweis der Identität (digitale Zertifikate)"
-date:   2019-01-01 17:54:25 +0100
+title: "TLS-Zertifikate"
+subtitle: "digitaler Nachweis der Identität (digitale Zertifikate)"
 #header:
 #  teaser: /assets/images/Profilbild240.webp
 categories: jekyll update
