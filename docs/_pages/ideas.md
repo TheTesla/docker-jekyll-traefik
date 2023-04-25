@@ -2,7 +2,7 @@
 title: Ideen
 collection: ideas
 layout: collection
-permalink: /Ideen/
+permalink: /ideen/
 entries_layout: grid
 classes: wide
 author_profile: true

@@ -1,8 +1,8 @@
 main:
   - title: "Projekte"
-    url: /Projekte/
+    url: /projekte/
   - title: "Ideen"
-    url: /Ideen/
+    url: /ideen/
   - title: "Wissen"
-    url: /Artikel/
+    url: /artikel/
 

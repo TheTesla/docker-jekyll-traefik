@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "Cryptdomainmgr - Automatisierung von TLS-Zertifikaten, TLSA (DANE) und DKIM"
+title: "Cryptdomainmgr"
+subtitle: "Automatisierung von TLS-Zertifikaten, TLSA (DANE) und DKIM"
 header:
   teaser: /assets/images/cdmlogo.svg
 categories:
