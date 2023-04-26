@@ -1,6 +1,7 @@
 ---
 layout: single
-title: "ATXmega128a4u USB Breakout Board"
+title: "ATXmega128a4u USB"
+subtitle: "Breakout-Board für Atmel-XMega-USB"
 header:
   teaser: /assets/images/XMega128a4u_USB_BO.jpg
 categories:
