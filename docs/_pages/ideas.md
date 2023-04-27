@@ -9,4 +9,5 @@ author_profile: true
 author: Stefan Helmert
 ---
 
-Für diese Projektideen gilt: "Jemand müsste das mal machen!"
+Hier werden Ideen für mögliche zukünftige Projekte vorgestellt. 
+

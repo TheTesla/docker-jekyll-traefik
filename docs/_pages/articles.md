@@ -9,7 +9,5 @@ author_profile: true
 author: Stefan Helmert
 ---
 
-
-Diese Kategorien ist kein kleines Wiki, welches das Ziel hat allgemein bekannte Sachverhalten möglichst verständlich zu erklären.
-
+Dieser Bereich hat den Anspruch allgemein anerkannte Tatsachen verständlich darzustellen.
 
