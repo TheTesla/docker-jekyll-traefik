@@ -29,6 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
  
   #repository: TheTesla/thetesla.github.io
 locale: de
+  #locale: en
 
 # Build settings
 markdown: kramdown
