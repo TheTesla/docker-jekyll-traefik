@@ -1,3 +1,29 @@
+---
+layout: single
+title: "ATXmega128a4u USB Beschreibung"
+subtitle: "Breakout-Board für Atmel-XMega-USB"
+#hidden: true
+header:
+  teaser: /assets/images/XMega128a4u_USB_BO.jpg
+categories:
+  - Hardware
+tags:
+  - Projekt
+  - Elektronik
+sidebar:
+  - title: "ATXmega128a4u USB"
+    image: /assets/images/XMega128a4u_USB_BO.jpg
+    image_alt: "Foto des Breakout Boards"
+    text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
+gallery:
+  - url: /assets/images/XMega128a4u_USB_BO.jpg
+    image_path: /assets/images/XMega128a4u_USB_BO.jpg
+    alt: "Foto des Breakout Boards schräg von der Seite"
+  - url: /assets/images/Xmega128a4u_USB_BO_f.jpg
+    image_path: /assets/images/Xmega128a4u_USB_BO_f.jpg
+    alt: "Foto des Breakout Boards von oben"
+---
+
 [[Datei:Xmega128a4uBOf.png |thumb|upright=1.5|Vorderseite der Platine, OSH-Park-Vorschau]]
 
 [[Datei:Xmega128a4uBOb.png |thumb|upright=1.5|Rückseite der Platine, OSH-Park-Vorschau]]
