@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "ATXmega128a4u USB Beschreibung"
-subtitle: "Breakout-Board für Atmel-XMega-USB"
+title: "ATXmega128a4u USB"
+subtitle: "Detailbeschreibung für das ATXMega128a4u USB Breakout Board"
 #hidden: true
 header:
   teaser: /assets/images/XMega128a4u_USB_BO.jpg
