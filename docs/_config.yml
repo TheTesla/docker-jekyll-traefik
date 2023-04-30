@@ -17,7 +17,8 @@
 include: ["_pages"] #,"_data"]
 
 
-title: Entroserv
+title: "entro<span style=font-weight:300;>py</span> serv<span style=font-weight:300;>ice</span>"
+subtitle: test
 email: info@entroserv.de
 description: >- # this means to ignore newlines until "baseurl:"
   Ideen, Projekte und Artikel rund um Technologie
