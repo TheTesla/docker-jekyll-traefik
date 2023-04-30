@@ -1,7 +1,7 @@
 Stefan Helmert:
   name: "Stefan Helmert"
   avatar: "/assets/images/Profilbild240.webp"
-  bio: "Innovation verstehen" # Note: Markdown is allowed
+  bio: "Software, Hardware, E-Technik, 3D-Druck, Open Source" # Note: Markdown is allowed
   location: "Dresden"
   links:
     - label: "Twitter"
