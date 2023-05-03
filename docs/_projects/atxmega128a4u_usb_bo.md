@@ -11,9 +11,33 @@ tags:
   - Elektronik
 sidebar:
   - title: "ATXmega128a4u USB"
-    image: /assets/images/XMega128a4u_USB_BO.jpg
-    image_alt: "Foto des Breakout Boards"
-    text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
+#    image: /assets/images/XMega128a4u_USB_BO.jpg
+#    image_alt: "Foto des Breakout Boards"
+#    text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
+    nav: side
+#      - title: "Parent Page A"
+#        children:
+#          - title: "Child Page A1"
+#            url: /
+#          - title: "Child Page A2"
+#            url: /
+#          - title: "Child Page A3"
+#            url: /
+#          - title: "Child Page A4"
+#            url: /
+#      - title: "Parent Page B"
+#        children:
+#          - title: "Child Page B1"
+#            url: /
+#          - title: "Child Page B2"
+#            url: /
+#          - title: "Child Page B3"
+#            url: /
+#          - title: "Child Page B4"
+#            url: /
+#          - title: "Child Page B5"
+#            url: /
+
 gallery:
   - url: /assets/images/XMega128a4u_USB_BO.jpg
     image_path: /assets/images/XMega128a4u_USB_BO.jpg
@@ -22,6 +46,9 @@ gallery:
     image_path: /assets/images/Xmega128a4u_USB_BO_f.jpg
     alt: "Foto des Breakout Boards von oben"
 ---
+
+
+{{ page.path }}
 
 {% include gallery caption="Fertig bestückte Platine aus der Serienproduktion" %}
 
