@@ -15,6 +15,7 @@ sidebar:
     image: /assets/images/XMega128a4u_USB_BO.jpg
     image_alt: "Foto des Breakout Boards"
     text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
+    nav: side
 gallery:
   - url: /assets/images/XMega128a4u_USB_BO.jpg
     image_path: /assets/images/XMega128a4u_USB_BO.jpg
