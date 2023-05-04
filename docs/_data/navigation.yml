@@ -1,10 +1,10 @@
 main:
   - title: "Projekte"
-    url: /projekte/
+    url: /Projekte/
   - title: "Ideen"
-    url: /ideen/
+    url: /Ideen/
   - title: "Wissen"
-    url: /artikel/
+    url: /Artikel/
 
 
 side:

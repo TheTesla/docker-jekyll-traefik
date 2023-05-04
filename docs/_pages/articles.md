@@ -2,7 +2,7 @@
 title: Wissen
 layout: collection
 collection: articles
-permalink: /artikel/
+permalink: /Artikel/
 entries_layout: grid
 classes: wide
 author_profile: true

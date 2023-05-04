@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "ATXmega128a4u USB"
+title: "ATXMega128a4u USB"
 subtitle: "Breakout-Board für Atmel-XMega-USB"
 header:
   teaser: /assets/images/XMega128a4u_USB_BO.jpg
@@ -10,33 +10,10 @@ tags:
   - Projekt
   - Elektronik
 sidebar:
-  - title: "ATXmega128a4u USB"
-#    image: /assets/images/XMega128a4u_USB_BO.jpg
-#    image_alt: "Foto des Breakout Boards"
-#    text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
+  - image: /assets/images/XMega128a4u_USB_BO.jpg
+    image_alt: "Foto des Breakout Boards"
+    text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
     nav: side
-#      - title: "Parent Page A"
-#        children:
-#          - title: "Child Page A1"
-#            url: /
-#          - title: "Child Page A2"
-#            url: /
-#          - title: "Child Page A3"
-#            url: /
-#          - title: "Child Page A4"
-#            url: /
-#      - title: "Parent Page B"
-#        children:
-#          - title: "Child Page B1"
-#            url: /
-#          - title: "Child Page B2"
-#            url: /
-#          - title: "Child Page B3"
-#            url: /
-#          - title: "Child Page B4"
-#            url: /
-#          - title: "Child Page B5"
-#            url: /
 
 gallery:
   - url: /assets/images/XMega128a4u_USB_BO.jpg
@@ -48,11 +25,9 @@ gallery:
 ---
 
 
-{{ page.path }}
-
 {% include gallery caption="Fertig bestückte Platine aus der Serienproduktion" %}
 
-Endlich kann der ATXMega ohne Löten zum experiemntieren verwendet werden. Der Abstand der beiden Pinreihen des Breakout-Boards beträgt 22,86 mm. Damit passt es ideal auf ein Breadboard.
+Endlich kann der ATXMega ohne Löten zum Experimentieren verwendet werden. Der Abstand der beiden Pinreihen des Breakout-Boards beträgt 22,86 mm. Damit passt es ideal auf ein Breadboard.
 
 Der Controller ist ein ATXMega128a4u. Er kann als USB-Device verwendet werde. Über die Micro-USB-Buchse wird das Board bspw. mit dem PC verbunden.
 

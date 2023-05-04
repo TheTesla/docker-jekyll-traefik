@@ -46,13 +46,13 @@ minimal_mistakes_skin: "air" #"default" ,  "aqua", "contrast", "dark", "dirt", "
 collections:
   articles:
     output: true
-    permalink: /artikel/:path/
+    permalink: /Artikel/:path/
   projects:
     output: true
-    permalink: /projekte/:path/
+    permalink: /Projekte/:path/
   ideas:
     output: true
-    permalink: /ideen/:path/
+    permalink: /Ideen/:path/
 
 
 
