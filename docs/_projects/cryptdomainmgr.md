@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Cryptdomainmgr"
-subtitle: "Automatisierung von TLS-Zertifikaten, TLSA (DANE) und DKIM"
+subtitle: "Unterbrechungsfreie Erneuerung von X.509-Zertifikaten, TLSA-Einträgen und DKIM-Schlüsseln"
+excerpt: "Die Software steuert anhand einer deklarativen Konfiguration Dienste/APIs um Schlüsselmaterial zu erzeugen, veröffentlichen und zeitversetzt anzuwenden."
 header:
   teaser: /assets/images/cdmlogo.svg
 categories:

@@ -74,7 +74,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
       show_date: true
   # _articles
   - scope:
@@ -83,7 +83,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      related: true
+      related: false
       read_time: true
       share: true
   # _projects
@@ -93,7 +93,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      related: true
+      related: false
       read_time: true
       share: true
 
