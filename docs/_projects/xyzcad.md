@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: single
 title:  "xyzCad-Software"
-date:   2023-01-29 21:20:25 +0100
+hidden: true
 header:
   teaser: /assets/images/Profilbild240.webp
 categories: jekyll update

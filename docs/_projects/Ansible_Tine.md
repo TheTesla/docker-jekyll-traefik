@@ -1,6 +1,8 @@
 ---
-layout: posts
+layout: single
 title: "Ansible Tine2.0"
+subtitle: "Ansible-Rollen zum Aufsetzen eines Mailservers mit Spamfilter und Tine-Groupware"
+excerpt: "Das Setup enthält alle erforderlichen Komponenten inkl. Nutzerverwaltung und Cryptdomainmgr."
 #header:
 #  teaser: /assets/images/Profilbild240.webp
 categories:
@@ -9,9 +11,6 @@ tags:
   - Projekt
   - OpenSource
 ---
-
-
-# Ansible-tine
 
 | Projektdaten |
 | --------- | ------- |
