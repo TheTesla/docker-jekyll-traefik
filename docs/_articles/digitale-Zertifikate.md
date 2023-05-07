@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "TLS-Zertifikate"
-subtitle: "digitaler Nachweis der Identität (digitale Zertifikate)"
+title: "digitale Zertifikate"
+subtitle: "digitaler Identitätsnachweis, Zertifikate nach dem ITU-T-Standard X.509"
 #header:
 #  teaser: /assets/images/Profilbild240.webp
 categories: jekyll update

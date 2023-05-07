@@ -2,7 +2,7 @@
 layout: single
 title: "Public-Private-Key"
 subtitle: "Asymmetrische Kryptografie für Verschlüsselung und digitale Signaturen"
-#excerpt: ""
+excerpt: "Das Schlüsselpar besteht aus einem öffentlichen und einem privaten Schlüssel. Ein Schlüssel dient zum Verschlüsseln, einer zum Entschlüsseln."
 header:
   teaser: /assets/images/asymetricCrypto.svg
 categories:

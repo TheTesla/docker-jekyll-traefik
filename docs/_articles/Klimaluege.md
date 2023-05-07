@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Klimalüge?"
+subtitle: "Glaubwürdig und doch Unsinn - die Klimadebatte in den Sozialen Medien"
+excerpt: "Die Behauptung, die Regierung lüge die Menschen bezüglich des Klimawandels an, verbreitet sich immer weiter. Die Autoren verdienen daran gut."
 #header:
 #  teaser: /assets/images/Profilbild240.webp
 categories: jekyll update
@@ -14,7 +16,7 @@ Gibt es nun den menschenverursachten Klimawandel oder nicht?
 
 Es gibt heftige Debatten auf YouTube, Facebook, in Foren etc. ob der menschengemachte Klimawandel wirklich existiert. Es stehen große Interessensgruppen, wie die Windkraft- und Solarindustrie, aber auch  Kohle- und Automobileindustrie dahinter. Die Regierung droht mit der Einführung einer CO2-Steuer. Autofahren und Fliegen werden teurer, aber auch alle anderen Waren und Dienstleistungen für deren Herstellung und Transport fossile Brennstoffe verbrannt werden.
 
-Fragen nach der Notwendigkeit und eine gesunde Skepsis sind immer berechtig. Leide werden diese Fragen unzureichend beantwortet. Auf Zweifel wird viel zu wenig eingegangen. Diese Beitrag soll das ändern. Hier entsteht eine Sammlung aus Fragen und Zweifeln am menschengemschten Klimawandel. Das Ziel dieses Beitrags ist die Vermittlung von Fähigkeiten, damit Du lernst dir selbst eine Meinung zu bilden. Ich zeige Dir Schritt für Schritt, wie und wo du weitere Informationen findest, die auf YouTube etc. überhaupt nicht diskutiert werden.
+Fragen nach der Notwendigkeit und eine gesunde Skepsis sind immer berechtig. Leider werden diese Fragen unzureichend beantwortet. Auf Zweifel wird viel zu wenig eingegangen. Diese Beitrag soll das ändern. Hier entsteht eine Sammlung aus Fragen und Zweifeln am menschengemschten Klimawandel. Das Ziel dieses Beitrags ist die Vermittlung von Fähigkeiten, damit Du lernst dir selbst eine Meinung zu bilden. Ich zeige Dir Schritt für Schritt, wie und wo du weitere Informationen findest, die auf YouTube etc. überhaupt nicht diskutiert werden.
 
 ## Infragestellung des Klimawandels
 
