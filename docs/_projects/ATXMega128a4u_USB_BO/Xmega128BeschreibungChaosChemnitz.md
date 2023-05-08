@@ -16,20 +16,19 @@ sidebar:
     text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
     nav: side
 gallery:
-  - url: /assets/images/XMega128a4u_USB_BO.jpg
-    image_path: /assets/images/XMega128a4u_USB_BO.jpg
-    alt: "Foto des Breakout Boards schräg von der Seite"
-  - url: /assets/images/Xmega128a4u_USB_BO_f.jpg
-    image_path: /assets/images/Xmega128a4u_USB_BO_f.jpg
-    alt: "Foto des Breakout Boards von oben"
+  - url: /assets/images/Xmega128a4uBOf.png
+    image_path: /assets/images/Xmega128a4uBOf.png
+    alt: "Plot unbestückte Platine - Oberseite"
+    title: "Vorderseite der Platine, OSH-Park-Vorschau"
+  - url: /assets/images/Xmega128a4uBOb.png
+    image_path: /assets/images/Xmega128a4uBOb.png
+    alt: "Plot unbestückte Platine - Unterseite"
+    title: "Rückseite der Platine, OSH-Park-Vorschau"
 ---
 
-![Vorderseite der Platine, OSH-Park-Vorschau](/assets/images/Xmega128a4uBOf.png)
+{% include gallery caption="unbestückte Platine" %}
 
-![Rückseite der Platine, OSH-Park-Vorschau](/assets/images/Xmega128a4uBOb.png)
-
-
-Bisher gab es nur sehr selten Breakout-Boards für die ATXMegas von Atmel zu kaufen, meist in ungeeigneter Bauform und ohne ESD-Schutz. Deshalb wurde ein neues Board entworfen. Der Abstand zwischen den beiden Pinreihen beträgt 0,9 Zoll (22,86 mm), wodurch das Board direkt auf das [http://www.pollin.de/shop/dt/MTI4OTg0OTk-/Werkstatt/Werkstattbedarf/Sonstiges/Labor_Steckboard.html Labor-Steckboard] passt.
+Bisher gab es nur sehr selten Breakout-Boards für die ATXMegas von Atmel zu kaufen, meist in ungeeigneter Bauform und ohne ESD-Schutz. Deshalb wurde ein neues Board entworfen. Der Abstand zwischen den beiden Pinreihen beträgt 0,9 Zoll (22,86 mm), wodurch das Board direkt auf das [Labor-Steckboard](http://www.pollin.de/shop/dt/MTI4OTg0OTk-/Werkstatt/Werkstattbedarf/Sonstiges/Labor_Steckboard.html) passt.
 
 Es ist eine micro-USB-Buchse direkt am Board angebracht. Diese Schnittstelle ist mit einem ESD-Schutz (BAS70 + 6,2 V Z-Diode) ausgestattet. Die Datenleitung sind mit dem USB-fähigen Xmega verbunden. USB und Board haben eine gemeinsame Masse. Der VUSB ist separat herausgeführt. Es ist kein Spannungsregler eingebaut. Da VUSB, GND und V+ direkt nebeneinander herausgeführt werden, kann ein geeigneter Spannungsregler bzw. Schaltregler ohne großen Aufwand direkt an die Stiftleiste angeschlossen werden.
 
@@ -39,11 +38,9 @@ Es befinden sich Abblock-Kondensatoren (10 µF) an PORTA.0 und PORTB.0, da diese
 
 Der PDI-Anschluss auf der Oberseite des Boards besitzt bereits einen 10 kΩ pullup-Widerstand am Reset.
 
-'''Testplan für die Massenfertigung (englisch):''' [[Xmega128a4u BO Testplan]]
+Schaltplan und Layout auf [GitHub](https://github.com/TheTesla/ATXMega32a4u-USB-Breakout/tree/Xmega128a4u)
 
-'''github:''' [https://github.com/TheTesla/ATXMega32a4u-USB-Breakout/tree/Xmega128a4u Xmega128a4u]
-
-Fragen? [mailto:support@entroserv.de support@entroserv.de]
+Fragen? [support@entroserv.de](mailto:support@entroserv.de)
 
 ## Linux
 
