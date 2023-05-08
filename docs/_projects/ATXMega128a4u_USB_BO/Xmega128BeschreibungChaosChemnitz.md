@@ -24,9 +24,9 @@ gallery:
     alt: "Foto des Breakout Boards von oben"
 ---
 
-[[Datei:Xmega128a4uBOf.png |thumb|upright=1.5|Vorderseite der Platine, OSH-Park-Vorschau]]
+![Vorderseite der Platine, OSH-Park-Vorschau](/assets/images/Xmega128a4uBOf.png)
 
-[[Datei:Xmega128a4uBOb.png |thumb|upright=1.5|Rückseite der Platine, OSH-Park-Vorschau]]
+![Rückseite der Platine, OSH-Park-Vorschau](/assets/images/Xmega128a4uBOb.png)
 
 
 Bisher gab es nur sehr selten Breakout-Boards für die ATXMegas von Atmel zu kaufen, meist in ungeeigneter Bauform und ohne ESD-Schutz. Deshalb wurde ein neues Board entworfen. Der Abstand zwischen den beiden Pinreihen beträgt 0,9 Zoll (22,86 mm), wodurch das Board direkt auf das [http://www.pollin.de/shop/dt/MTI4OTg0OTk-/Werkstatt/Werkstattbedarf/Sonstiges/Labor_Steckboard.html Labor-Steckboard] passt.
