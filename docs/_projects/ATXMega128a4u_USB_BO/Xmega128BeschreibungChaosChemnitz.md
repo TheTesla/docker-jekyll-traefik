@@ -45,16 +45,21 @@ Der PDI-Anschluss auf der Oberseite des Boards besitzt bereits einen 10 kΩ pull
 
 Fragen? [mailto:support@entroserv.de support@entroserv.de]
 
-== Linux ==
+## Linux
+
 Programmierung mit avr-gcc:
 
+```bash
 avr-gcc -mmcu=atxmega128a4u ...
+```
 
-Klappt auch mit -mmcu=atxmega128a3. (Meistens wird der atxmega nicht explizit unterstützt.)
+Klappt auch mit ``-mmcu=atxmega128a3``. (Meistens wird der atxmega nicht explizit unterstützt.)
 
 Hochladen mit
 
+```bash
 avrdude -p xmega128a4u ...
+```
 
 Auch hier ist der xmega128a4u oft nicht explizit unterstützt, da tut's ebenfalls der xmega128a[\d][a-z].
 
