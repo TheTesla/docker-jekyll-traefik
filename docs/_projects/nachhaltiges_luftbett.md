@@ -33,9 +33,9 @@ gallery:
 
 {% include gallery caption="Luftbett aus der Serienproduktion" %}
 
-Video: https://youtu.be/zQKNOrybAm8
+[Video](https://youtu.be/zQKNOrybAm8)
 
-Das Crowdfunding ist beendet. Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) odetr [eBay](https://ebay.to/33wltt0) erhältlich.
+Das Crowdfunding ist beendet. Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) oder [eBay](https://ebay.to/33wltt0) erhältlich.
 
 ## Update - Produktseite und Marke
 
@@ -150,7 +150,7 @@ Die Ventile haben 1,8 cm Innendurchmesser. Zum Ablassen der Luft kann der Innent
 
 ![Foto Ventil geschlossen](/assets/images/valveclosedphoto.jpg?resize=400,300)
 
-Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) odetr [eBay](https://ebay.to/33wltt0) erhältlich.
+Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) oder [eBay](https://ebay.to/33wltt0) erhältlich.
 
 ### FAQ zum Luftbett-Projekt
 

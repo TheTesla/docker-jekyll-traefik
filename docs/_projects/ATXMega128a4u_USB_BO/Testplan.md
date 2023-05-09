@@ -2,6 +2,7 @@
 layout: single
 title: "Testplan"
 subtitle: "Testplan für das ATXMega128a4u USB Breakout Board"
+locale: en
 hidden: true
 header:
   teaser: /assets/images/XMega128a4u_USB_BO.jpg
@@ -16,17 +17,25 @@ sidebar:
     text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
     nav: side
 gallery:
-  - url: /assets/images/XMega128a4u_USB_BO.jpg
-    image_path: /assets/images/XMega128a4u_USB_BO.jpg
-    alt: "Foto des Breakout Boards schräg von der Seite"
-  - url: /assets/images/Xmega128a4u_USB_BO_f.jpg
-    image_path: /assets/images/Xmega128a4u_USB_BO_f.jpg
-    alt: "Foto des Breakout Boards von oben"
+  - url: /assets/images/Xmega128a4uBOf.png
+    image_path: /assets/images/Xmega128a4uBOf.png
+    alt: "Plot PCB without components - bottom"
+    title: "top of Xmega Breakout Board, OSH-Park-preview"
+  - url: /assets/images/Xmega128a4uBOb.png
+    image_path: /assets/images/Xmega128a4uBOb.png
+    alt: "Plot PCB without components - bottom"
+    title: "bottom of Xmega Breakout Board, OSH-Park-preview"
+  - url: /assets/images/Xmega128a4uBOtestf.png
+    image_path: /assets/images/Xmega128a4uBOtestf.png
+    alt: "Plot testboard PCB without components - bottom" 
+    title: "top of testboard, OSH-Park-preview"
+  - url: /assets/images/Xmega128a4uBOtestb.png
+    image_path: /assets/images/Xmega128a4uBOtestb.png
+    alt: "Plot testboard PCB without components - bottom" 
+    title: "bottom of testboard, OSH-Park-preview"
 ---
 
-![top of Xmega Breakout Board, OSH-Park-preview](/assets/images/Xmega128a4uBOf.png)
-
-![bottom of Xmega Breakout Board, OSH-Park-preview](/assets/images/Xmega128a4uBOb.png)
+{% include gallery caption="PCB of microcontroller board and corresponding test board" %}
 
 This is the explanation how to test the Xmega128a4u breakout board in mass production process.
 
@@ -38,10 +47,6 @@ This is the explanation how to test the Xmega128a4u breakout board in mass produ
 * Reference voltage capacitors are tested.
 
 ## Testboard
-
-![top of testboard, OSH-Park-preview](/assets/images/Xmega128a4uBOtestf.png)
-
-![bottom of testboard, OSH-Park-preview](/assets/images/Xmega128a4uBOtestb.png)
 
 All the functions are tested by the passive testboard. "Passive" means there is no processor on the board. The testprocess is done by the Xmega Breakout Board. 
 
