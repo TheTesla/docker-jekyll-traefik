@@ -3,13 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 #layout: home
-layout: collection
-entries_layout: grid
-author_profile: true
-classes: wide
+layout: splash
+header:
+  overlay_image: /assets/images/entroservsplash.jpg 
+
+#layout: collection
+#entries_layout: grid
+#author_profile: true
+#classes: wide
 
 
-collection: articles
+#collection: articles
 
 author: Stefan Helmert
 ---
