@@ -18,22 +18,22 @@ header:
       url: "https://t.me/entroprojectdiscuss"
 
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
+  - image_path: /assets/images/SymbolbildProjekte_500_300.webp
+    alt: "Symbolfoto Projekte"
     title: "Projekte"
     excerpt: "real existierende Dinge in Form von Hard- oder Software; in Umsetzung befindlich oder abgeschlossen"
     url: "/Projekte"
     btn_label: "Mehr dazu"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
+  - image_path: /assets/images/SymbolbildIdeen2_500_300.webp
+    alt: "Symbolfoto Ideen"
     title: "Ideen"
     excerpt: "was _man_ mal machen könnte; wird vmtl. nie fertig"
     url: "/Ideen"
     btn_label: "Mehr dazu"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+  - image_path: /assets/images/SymbolbildWissen_500_300.png
+    alt: "Symbolfoto Wissen"
     title: "Wissen"
     excerpt: "wie die Welt funktioniert; warum die Dinge so sind, wie sie sind"
     url: "/Wissen"
