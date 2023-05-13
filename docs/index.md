@@ -2,7 +2,6 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-#layout: home
 layout: splash
 title: "entroserv"
 excerpt: "ein Blog über Wissenschaft und Technik"
@@ -40,19 +39,8 @@ feature_row:
     btn_label: "Mehr dazu"
     btn_class: "btn--primary"
 
-
-#layout: collection
-#entries_layout: grid
-#author_profile: true
-#classes: wide
-
-
-#collection: articles
-
-author: Stefan Helmert
 ---
 
-mein text
 
 {% include feature_row %}
 

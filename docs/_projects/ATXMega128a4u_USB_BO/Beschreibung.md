@@ -28,7 +28,7 @@ gallery:
 
 {% include gallery caption="unbestückte Platine" %}
 
-Bisher gab es nur sehr selten Breakout-Boards für die ATXMegas von Atmel zu kaufen, meist in ungeeigneter Bauform und ohne ESD-Schutz. Deshalb wurde ein neues Board entworfen. Der Abstand zwischen den beiden Pinreihen beträgt 0,9 Zoll (22,86 mm), wodurch das Board direkt auf das [Labor-Steckboard](http://www.pollin.de/shop/dt/MTI4OTg0OTk-/Werkstatt/Werkstattbedarf/Sonstiges/Labor_Steckboard.html) passt.
+Bisher gab es nur sehr selten Breakout-Boards für die ATXMegas von Atmel zu kaufen, meist in ungeeigneter Bauform und ohne ESD-Schutz. Deshalb wurde ein neues Board entworfen. Der Abstand zwischen den beiden Pinreihen beträgt 0,9 Zoll (22,86 mm), wodurch das Board direkt auf das [Labor-Steckboard](https://ebay.us/JKtg8r) passt.
 
 Es ist eine micro-USB-Buchse direkt am Board angebracht. Diese Schnittstelle ist mit einem ESD-Schutz (BAS70 + 6,2 V Z-Diode) ausgestattet. Die Datenleitung sind mit dem USB-fähigen Xmega verbunden. USB und Board haben eine gemeinsame Masse. Der VUSB ist separat herausgeführt. Es ist kein Spannungsregler eingebaut. Da VUSB, GND und V+ direkt nebeneinander herausgeführt werden, kann ein geeigneter Spannungsregler bzw. Schaltregler ohne großen Aufwand direkt an die Stiftleiste angeschlossen werden.
 

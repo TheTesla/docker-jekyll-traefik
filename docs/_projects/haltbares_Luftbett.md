@@ -4,7 +4,7 @@ title: "haltbares Luftbett"
 subtitle: "Komfort-Luftbett aus TPU, langlebig, weichmacherfrei, allergenfrei, hygienisch"
 excerpt: "Der Entwurf dieses Luftbettes basiert auf der Analyse und Behebung der konstruktiven Schwächen unterschiedlicher Luftbetten und Camping-Luftmatratzen."
 header:
-  teaser: /assets/images/inflated.png
+  teaser: /assets/images/airbedonbed.webp
 categories:
   - Hardware
 tags:
@@ -15,18 +15,26 @@ sidebar:
     image_alt: "Foto des aufgepumpten Luftbetts"
     text: "[Produktseite](https://pionplex.de){: .btn .btn--info}"
 gallery:
+  - url: /assets/images/airbedonbed.webp
+    image_path: /assets/images/airbedonbed.webp
+    alt: "Luftbett liegt zum Größenvergleich auf normalem Bett"
+    title: "so groß wie ein normales Bett" 
   - url: /assets/images/inflated.png 
     image_path: /assets/images/inflated.png
     alt: "Zeichnung mit Maßen des aufgepumpten Luftbetts"
+    title: "Maße des aufgeblasenen Luftbetts"
   - url: /assets/images/LuMafrf.jpg
     image_path: /assets/images/LuMafrf.jpg
     alt: "Foto des aufgepumpten Luftbetts - Vorderseite"
+    title: "Oberseite"
   - url: /assets/images/LuMafrb.jpg
     image_path: /assets/images/LuMafrb.jpg
     alt: "Foto des aufgepumpten Luftbetts - Rückseite"
+    title: "Unterseite"
   - url: /assets/images/LuMafrK.jpg
     image_path: /assets/images/LuMafrK.jpg
     alt: "Foto des Kartonstapels"
+    title: "Lager"
 ---
 
 
@@ -43,7 +51,7 @@ Auf [Pionplex](https://pionplex.de) ist nun die dedizierte Produktseite zu finde
 
 ## Update - Prüfbericht von Qima fertig gestellt
 
-[QIMA Prüfbericht](20W-002992.pdf)
+[QIMA Prüfbericht](/assets/downloads/20W-002992.pdf)
 
 ## Bisher fast nur minderwertige Luftbetten verfügbar
 
@@ -116,11 +124,9 @@ Neben der künstlich verkürzten Haltbarkeit haben viele Luftbetten noch weitere
 
 ## Bereits verfügbare Alternativen
 
-Auf Amazon gibt es einzelne Luftbetten, welche vollständig aus dickem TPU hergestellt sind. Diese sind für die Übernachtung in Fahrzeugen konzipiert und bestehen nur aus einer oder zwei Kammern:
+Auf Amazon gab es einzelne Luftbetten, welche vollständig aus dickem TPU hergestellt waren. Diese sind für die Übernachtung in Fahrzeugen konzipiert und bestehen nur aus einer oder zwei Kammern.
 
-* https://amzn.to/2EqjdWa
-* https://amzn.to/36FwYMN
-* https://amzn.to/2S13nJI
+Ebenfalls ausschließlich aus TPU wurde das [Big Agnes Green Ridge Air Pad](https://youtu.be/HD7tpP63v7k) hergestellt. Allerdings hatte auch diese Luftmatratze einige konstruktionstechnische Schwächen. Die Inneren Stege reichen nicht bis zum Rand. Die mechanischen Spannungen an den Ende der Stege sind dadurch sehr hoch. 
 
 ## Mängelfreies Luftbett
 
@@ -186,4 +192,4 @@ Die verwendeten Farben müssten alle auf Umweltverträglichkeit und gesundheitli
 
 #### Wie sieht die Verpackung aus, wenn das Luftbett in den Handel kommt?
 
-[Verpackungsaufdruck Version 1](airbedpackprint.pdf)
+[Verpackungsaufdruck Version 1](/assets/downloads/airbedpackprint.pdf)
