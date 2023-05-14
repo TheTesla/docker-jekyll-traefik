@@ -23,7 +23,7 @@
 		<a href="{{ site.url }}{{ site.baseurl }}/" itemprop="item"><span itemprop="name">{{ site.title }}</span></a>
           <meta itemprop="position" content="{{ i }}" />
         </li>
-        <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
+        {{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}
       {% endif %}
       {% if forloop.last %}
         <li class="current">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | replace: '_', ' ' }}</li>
