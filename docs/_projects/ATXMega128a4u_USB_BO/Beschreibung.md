@@ -4,14 +4,14 @@ title: "Beschreibung"
 subtitle: "Detailbeschreibung für das ATXMega128a4u USB Breakout Board"
 hidden: true
 header:
-  teaser: /assets/images/XMega128a4u_USB_BO.jpg
+  teaser: /assets/images/XMega128a4u_USB_BO.webp
 categories:
   - Hardware
 tags:
   - Projekt
   - Elektronik
 sidebar:
-  - image: /assets/images/XMega128a4u_USB_BO.jpg
+  - image: /assets/images/XMega128a4u_USB_BO.webp
     image_alt: "Foto des Breakout Boards"
     text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
     nav: side

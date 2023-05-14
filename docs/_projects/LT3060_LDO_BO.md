@@ -4,7 +4,7 @@ title: "LT3060 LDO BO"
 subtitle: "Breakout-Board mit dem robusten und rauscharmen Low-Drop-Spannungsregler LT3060"
 excerpt: "Das Spannungsregler-Modul in der Form eines TO220-Gehäuse enthält bereits die erforderliche Außenbeschaltung und einen Überspannungsschutz."
 header:
-  teaser: /assets/images/LT3060bo.jpg
+  teaser: /assets/images/LT3060bo.webp
 categories:
   - Hardware
 tags:
@@ -12,7 +12,7 @@ tags:
   - Elektronik
 sidebar:
   - title: "LT3060 BO"
-    image: /assets/images/LT3060bo.jpg
+    image: /assets/images/LT3060bo.webp
     image_alt: "Foto des Breakout Boards"
 ---
 
@@ -33,5 +33,5 @@ Beziehbar über [Watterott](https://www.watterott.com).
 * Eingangsspannungsbereich: Uo+0,51 - 40 V
 * Ruhestrom: 40 uA
 
-![LT3060boBack](/assets/images/LT3060bo.jpg)
+![LT3060boBack](/assets/images/LT3060bo.webp)
 

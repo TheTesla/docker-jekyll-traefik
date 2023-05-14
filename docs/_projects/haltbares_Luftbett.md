@@ -11,7 +11,7 @@ tags:
   - Projekt
 sidebar:
   - title: "TPU Komfort-Luftbett"
-    image: /assets/images/LuMafrf.jpg?resize=512,768
+    image: /assets/images/LuMafrf.webp?resize=512,768
     image_alt: "Foto des aufgepumpten Luftbetts"
     text: "[Produktseite](https://pionplex.de){: .btn .btn--info}"
 gallery:
@@ -23,16 +23,16 @@ gallery:
     image_path: /assets/images/inflated.png
     alt: "Zeichnung mit Maßen des aufgepumpten Luftbetts"
     title: "Maße des aufgeblasenen Luftbetts"
-  - url: /assets/images/LuMafrf.jpg
-    image_path: /assets/images/LuMafrf.jpg
+  - url: /assets/images/LuMafrf.webp
+    image_path: /assets/images/LuMafrf.webp
     alt: "Foto des aufgepumpten Luftbetts - Vorderseite"
     title: "Oberseite"
-  - url: /assets/images/LuMafrb.jpg
-    image_path: /assets/images/LuMafrb.jpg
+  - url: /assets/images/LuMafrb.webp
+    image_path: /assets/images/LuMafrb.webp
     alt: "Foto des aufgepumpten Luftbetts - Rückseite"
     title: "Unterseite"
-  - url: /assets/images/LuMafrK.jpg
-    image_path: /assets/images/LuMafrK.jpg
+  - url: /assets/images/LuMafrK.webp
+    image_path: /assets/images/LuMafrK.webp
     alt: "Foto des Kartonstapels"
     title: "Lager"
 ---
@@ -92,7 +92,7 @@ Auch in der Schweißnaht konzentriert sich die gesamte Kraft auf eine kleine Fl�
 
 Häufig ist jedoch die Verbindung zwischen dem Polyestergewebe und der TPU-Schicht schwächer als die TPU-Schicht selbst. In diesem Fall löst sich die TPU-Schicht vom Polyestergewebe. Das Foto zeigt, wie sich das Polyestergewebe an der Schweißnaht von der TPU-Schicht vollständig gelöst hat. Die TPU-Schicht ist noch intakt:
 
-![Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/plannedobsolescence_detached.svg) ![Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/PolyesterTPUdetached.jpg?resize=512,256)
+![Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/plannedobsolescence_detached.svg) ![Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/PolyesterTPUdetached.webp?resize=512,256)
 
 Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird vielleicht nicht die gleiche Kratzfestigkeit der Oberfläche erreicht. Auch die allgemeine Zugfestigkeit ist bei gleicher Materialdicke geringer. Jedoch ist die Schweißnaht die Schwachstelle. Sie wird entlastet, weil das Grundmaterial elastischer ist. Die Kraft verteilt sich auf eine größere Fläche innerhalb der Schweißnaht. (grüne Ellipse)
 
@@ -102,15 +102,15 @@ Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird viel
 
 Auch dicke PVC-Folie sollte lange halten. Damit PVC ausreichend elastisch wird, müssen Weichmacher eingebracht werden. Diese Weichmacher können z. B. bei Kontakt mit Fett aus dem Material austreten. Folgendes Foto zeigt den glänzenden Weichmacher, der aus der blauen PVC-Folie ausgetreten ist:
 
-![Foto von austretendem Weichmacher](/assets/images/plasticizerrelease.jpg?resize=384,384)
+![Foto von austretendem Weichmacher](/assets/images/plasticizerrelease.webp?resize=384,384)
 
 Dadurch wird das Material spröde. Es zerknittert:
 
-![Foto von sprödem PVC](/assets/images/roughPVC.jpg?resize=384,384)
+![Foto von sprödem PVC](/assets/images/roughPVC.webp?resize=384,384)
 
 Wird es dann stark gebogen, kann es brechen wie die Naht des transparenten PVC:
 
-![Zeichnung gebrochene Schweißnaht PVC](/assets/images/plannedobsolescence_brokenpvc.svg) ![Foto gebrpchene Schweißnaht PVC](/assets/images/brokenseam.jpg?resize=384,384)
+![Zeichnung gebrochene Schweißnaht PVC](/assets/images/plannedobsolescence_brokenpvc.svg) ![Foto gebrochene Schweißnaht PVC](/assets/images/brokenseam.webp?resize=384,384)
 
 ### Weitere konstruktive Mängel
 
@@ -152,9 +152,9 @@ Die Ventile haben 1,8 cm Innendurchmesser. Zum Ablassen der Luft kann der Innent
 
 ![Zeichnung der Ventile](/assets/images/valvesdraw.png?resize=640,480)
 
-![Foto Ventil offen zum Aufpumpen](/assets/images/valveinflatephoto.jpg?resize=400,300)![Foto Ventil offen zum Luftablassen](/assets/images/valveopenedphoto.jpg?resize=400,300)
+![Foto Ventil offen zum Aufpumpen](/assets/images/valveinflatephoto.webp?resize=400,300)![Foto Ventil offen zum Luftablassen](/assets/images/valveopenedphoto.webp?resize=400,300)
 
-![Foto Ventil geschlossen](/assets/images/valveclosedphoto.jpg?resize=400,300)
+![Foto Ventil geschlossen](/assets/images/valveclosedphoto.webp?resize=400,300)
 
 Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) oder [eBay](https://ebay.to/33wltt0) erhältlich.
 

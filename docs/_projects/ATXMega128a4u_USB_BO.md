@@ -4,24 +4,24 @@ title: "ATXMega128a4u USB"
 subtitle: "Entwicklungskit mit Atmel ATXMega128a4u USB-Mikroconroller"
 excerpt: "Das Entwicklungskit enthält einen 8-Bit-µC (echtes USB-Device) und passt auf das Breadboard. Programmiert wird er über den ISP-Header auf der Oberseite."
 header:
-  teaser: /assets/images/XMega128a4u_USB_BO.jpg
+  teaser: /assets/images/XMega128a4u_USB_BO.webp
 categories:
   - Hardware
 tags:
   - Projekt
   - Elektronik
 sidebar:
-  - image: /assets/images/XMega128a4u_USB_BO.jpg
+  - image: /assets/images/XMega128a4u_USB_BO.webp
     image_alt: "Foto des Breakout Boards"
     text: "[Auf Amazon bestellen](https://amzn.to/3oBWHUM){: .btn .btn--success}"
     nav: side
 
 gallery:
-  - url: /assets/images/XMega128a4u_USB_BO.jpg
-    image_path: /assets/images/XMega128a4u_USB_BO.jpg
+  - url: /assets/images/XMega128a4u_USB_BO.webp
+    image_path: /assets/images/XMega128a4u_USB_BO.webp
     alt: "Foto des Breakout Boards schräg von der Seite"
-  - url: /assets/images/Xmega128a4u_USB_BO_f.jpg
-    image_path: /assets/images/Xmega128a4u_USB_BO_f.jpg
+  - url: /assets/images/Xmega128a4u_USB_BO_f.webp
+    image_path: /assets/images/Xmega128a4u_USB_BO_f.webp
     alt: "Foto des Breakout Boards von oben"
 ---
 
