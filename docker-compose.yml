@@ -5,7 +5,7 @@ services:
     networks:
       default:
         aliases:
-          - web.smartrns.net
+          - entroserv.de
     image: "traefik:v2.4"
     container_name: "traefik"
     command:
@@ -44,11 +44,11 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.web-app.entrypoints=web"
-      - "traefik.http.routers.web-app.rule=Host(`web.smartrns.net`)"  ## Hier eure Domain eingeben ##
+      - "traefik.http.routers.web-app.rule=Host(`entroserv.de`)"  ## Hier eure Domain eingeben ##
       - "traefik.http.middlewares.web-app-https-redirect.redirectscheme.scheme=https"
       - "traefik.http.routers.web-app.middlewares=web-app-https-redirect"
       - "traefik.http.routers.web-app-secure.entrypoints=web-secure"
-      - "traefik.http.routers.web-app-secure.rule=Host(`web.smartrns.net`)" ## Hier eure Domain eingeben ##
+      - "traefik.http.routers.web-app-secure.rule=Host(`entroserv.de`)" ## Hier eure Domain eingeben ##
       - "traefik.http.routers.web-app-secure.tls=true"
       - "traefik.http.routers.web-app-secure.service=web-app"
       - "traefik.http.services.web-app.loadbalancer.server.port=4000"
