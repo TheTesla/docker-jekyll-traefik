@@ -11,12 +11,12 @@ tags:
   - Projekt
 sidebar:
   - title: "TPU Komfort-Luftbett"
-    image: /assets/images/LuMafrf.webp?resize=512,768
+    image: /assets/images/LuMafrf_thumb.webp
     image_alt: "Foto des aufgepumpten Luftbetts"
     text: "[Produktseite](https://pionplex.de){: .btn .btn--info}"
 gallery:
   - url: /assets/images/airbedonbed.webp
-    image_path: /assets/images/airbedonbed.webp
+    image_path: /assets/images/airbedonbed_thumb.webp
     alt: "Luftbett liegt zum Größenvergleich auf normalem Bett"
     title: "so groß wie ein normales Bett" 
   - url: /assets/images/inflated.png 
@@ -24,15 +24,15 @@ gallery:
     alt: "Zeichnung mit Maßen des aufgepumpten Luftbetts"
     title: "Maße des aufgeblasenen Luftbetts"
   - url: /assets/images/LuMafrf.webp
-    image_path: /assets/images/LuMafrf.webp
+    image_path: /assets/images/LuMafrf_thumb.webp
     alt: "Foto des aufgepumpten Luftbetts - Vorderseite"
     title: "Oberseite"
   - url: /assets/images/LuMafrb.webp
-    image_path: /assets/images/LuMafrb.webp
+    image_path: /assets/images/LuMafrb_thumb.webp
     alt: "Foto des aufgepumpten Luftbetts - Rückseite"
     title: "Unterseite"
   - url: /assets/images/LuMafrK.webp
-    image_path: /assets/images/LuMafrK.webp
+    image_path: /assets/images/LuMafrK_thumb.webp
     alt: "Foto des Kartonstapels"
     title: "Lager"
 ---
