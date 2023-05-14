@@ -22,8 +22,8 @@
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 		<a href="{{ site.url }}{{ site.baseurl }}/" itemprop="item"><span itemprop="name">{{ site.title }}</span></a>
           <meta itemprop="position" content="{{ i }}" />
+          {{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}
         </li>
-        {{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}
       {% endif %}
       {% if forloop.last %}
         <li class="current">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | replace: '_', ' ' }}</li>
@@ -33,8 +33,8 @@
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <a href="{{ crumb_concat | replace: '%20', '-' | prepend: path_type | prepend: crumb_path }}" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | replace: '%20', ' ' | replace: '_', ' ' }}</span></a>
           <meta itemprop="position" content="{{ i }}" />
+          {{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}
         </li>
-        {{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}
       {% endif %}
     {% endfor %}
   </ol>
