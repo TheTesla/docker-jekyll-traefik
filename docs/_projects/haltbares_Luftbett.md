@@ -35,6 +35,20 @@ gallery:
     image_path: /assets/images/LuMafrK_thumb.webp
     alt: "Foto des Kartonstapels"
     title: "Lager"
+valvegal:
+  - url: /assets/images/valveinflatephoto.webp
+    image_path: /assets/images/valveinflatephoto_thumb.webp
+    alt: "Foto Ventil offen zum Aufpumpen"
+    title: "Das Rückschlagventil verhindert das Entweichen der Luft beim Aufpumpen."
+  - url: /assets/images/valveopenedphoto.webp
+    image_path: /assets/images/valveopenedphoto_thumb.webp
+    alt: "Foto Ventil offen zum Luftablassen"
+    title: "Das Ventil lässt sich vollständig öffnen, um die Luft schnell wieder abzulassen."
+  - url: /assets/images/valveclosedphoto.webp
+    image_path: /assets/images/valveclosedphoto_thumb.webp
+    alt: "Foto Ventil geschlossen"
+    title: "Die Verschlusskappe schützt das Rückschlagventil und verhindert das langsame Entweichen der Luft."
+  
 ---
 
 
@@ -150,11 +164,7 @@ Aufgepumpt werden folgende Maße erreicht:
 
 Die Ventile haben 1,8 cm Innendurchmesser. Zum Ablassen der Luft kann der Innenteil geöffnet werden:
 
-![Zeichnung der Ventile](/assets/images/valvesdraw.png?resize=640,480)
-
-![Foto Ventil offen zum Aufpumpen](/assets/images/valveinflatephoto.webp?resize=400,300)![Foto Ventil offen zum Luftablassen](/assets/images/valveopenedphoto.webp?resize=400,300)
-
-![Foto Ventil geschlossen](/assets/images/valveclosedphoto.webp?resize=400,300)
+{% include gallery id="valvegal" caption="Ventile" %}
 
 Das Produkt ist nun regulär über [Amazon](https://amzn.to/3hK2iQk) oder [eBay](https://ebay.to/33wltt0) erhältlich.
 
