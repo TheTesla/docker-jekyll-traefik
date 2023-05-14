@@ -20,7 +20,7 @@ gallery:
     alt: "Luftbett liegt zum Größenvergleich auf normalem Bett"
     title: "so groß wie ein normales Bett" 
   - url: /assets/images/inflated.png 
-    image_path: /assets/images/inflated.png
+    image_path: /assets/images/inflated_thumb.webp
     alt: "Zeichnung mit Maßen des aufgepumpten Luftbetts"
     title: "Maße des aufgeblasenen Luftbetts"
   - url: /assets/images/LuMafrf.webp
