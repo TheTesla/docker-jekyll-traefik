@@ -5,6 +5,7 @@ subtitle: "Komfort-Luftbett aus TPU, langlebig, weichmacherfrei, allergenfrei, h
 excerpt: "Der Entwurf dieses Luftbettes basiert auf der Analyse und Behebung der konstruktiven Schwächen unterschiedlicher Luftbetten und Camping-Luftmatratzen."
 header:
   teaser: /assets/images/airbedonbed.webp
+canonical_url: "https://entroserv.de/haltbaresLuftbett"
 categories:
   - Hardware
 tags:
