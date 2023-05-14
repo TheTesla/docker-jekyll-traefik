@@ -54,7 +54,6 @@ services:
       - "traefik.http.services.web-app.loadbalancer.server.port=4000"
       - "traefik.docker.network=proxy"
       - "traefik.http.routers.web-app-secure.middlewares=secHeaders@file,web-compress"
-        #- "traefik.http.routers.web-app-secure.middlewares=web-compress"
       - "traefik.http.middlewares.web-compress.compress=true"
 
 
