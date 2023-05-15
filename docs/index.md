@@ -7,7 +7,7 @@ title: "entroserv"
 excerpt: "ein Blog über Wissenschaft und Technik"
 header:
   overlay_filter: linear-gradient(rgba(100, 150, 255, 0.5), rgba(255, 255, 255, 0.5))
-  overlay_image: /assets/images/entroservsplash.jpg 
+  overlay_image: /assets/images/entroservsplash.webp 
   actions:
     - label: "YouTube-Kanal Abonnieren"
       url: "https://www.youtube.com/@Tesla42?sub_confirmation=1"
