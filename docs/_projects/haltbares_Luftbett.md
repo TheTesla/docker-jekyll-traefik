@@ -36,6 +36,15 @@ gallery:
     image_path: /assets/images/LuMafrK_thumb.webp
     alt: "Foto des Kartonstapels"
     title: "Lager"
+drawgal:
+  - url: /assets/images/empty.png
+    image_path: /assets/images/empty_thumb.webp
+    alt: "technische Zeichnung der Unterseite des Luftbetts im leeren Zustand, mit Markierung für die Ventile"
+    title: "Rückseite des leeren Luftbetts; Die schwarzen Kreise stellen die Ventile dar."
+  - url: /assets/images/inflated.png
+    image_path: /assets/images/inflated_thumb.webp 
+    alt: "technische Zeichnung des aufgepumpten Luftbetts"
+    title: "Maße aufgepumpt"
 valvegal:
   - url: /assets/images/valveinflatephoto.webp
     image_path: /assets/images/valveinflatephoto_thumb.webp
@@ -155,13 +164,9 @@ Mit minimalem Aufwand ist eine mängelfreie Konstruktion möglich:
 * ausreichend hohes Kopfkissen
 * glatte Oberfläche: leichter zu reinigen
 
-Folgendes Bild zeigt die Rückseite des leeren Luftbettes. Die schwarzen Kreise sind die Ventile:
 
-![Luftbett im leeren Zustand](/assets/images/empty.png?resize=640,480)
 
-Aufgepumpt werden folgende Maße erreicht:
-
-![Luftbett im aufgepumpten Zustand](/assets/images/inflated.png?resize=640,480)
+{% include gallery id="drawgal" caption="technische Zeichungen des Luftbetts im leeren und vollen Zustand" %}
 
 Die Ventile haben 1,8 cm Innendurchmesser. Zum Ablassen der Luft kann der Innenteil geöffnet werden:
 
