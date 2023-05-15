@@ -42,6 +42,8 @@ plugins:
   - jekyll-sitemap
   - jekyll_picture_tag
 
+dimension_attributes: true
+
 
 #minimal_mistakes_skin: "air" #"default" ,  "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "contrast"
