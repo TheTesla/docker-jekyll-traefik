@@ -33,6 +33,11 @@ url: "https://entroserv.de" # the base hostname & protocol for your site, e.g. h
 locale: de
   #locale: en
 
+sass:
+  style: compressed
+
+
+
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll 
