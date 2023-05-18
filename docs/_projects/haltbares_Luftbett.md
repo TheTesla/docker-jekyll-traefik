@@ -45,6 +45,16 @@ drawgal:
     image_path: /assets/images/inflated_thumb.webp 
     alt: "technische Zeichnung des aufgepumpten Luftbetts"
     title: "Maße aufgepumpt"
+detachgal:
+  - url: /assets/images/plannedobsolescence_detached.svg
+    image_path: /assets/images/plannedobsolescence_detached.svg
+    alt: "Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab"
+    titel: "Die beiden TPU-beschichteten Polyestergewebe-Tücher halten ausschließlich an der Beschichtung zusammen. Die gesamte Kraft wird von der dünnen TPU-Schicht gehalten. Sie kann sich daher vom Gewebe ablösen. Dies geschieht an der Stelle innerhalb der roten Markierung."
+  - url: /assets/images/PolyesterTPUdetached.webp
+    image_path: /assets/images/PolyesterTPUdetached.webp
+    alt: "Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab"
+    titel: "Die Schweißnaht der dünnen TPU-Schicht hält, aber das graue und grüne Polyestergewebe löst sich von dieser TPU-Beschichtung ab."
+
 brokegal:
   - url: /assets/images/plasticizerrelease.webp 
     image_path: /assets/images/plasticizerrelease_thumb.webp
@@ -134,7 +144,7 @@ Auch in der Schweißnaht konzentriert sich die gesamte Kraft auf eine kleine Fl�
 
 Häufig ist jedoch die Verbindung zwischen dem Polyestergewebe und der TPU-Schicht schwächer als die TPU-Schicht selbst. In diesem Fall löst sich die TPU-Schicht vom Polyestergewebe. Das Foto zeigt, wie sich das Polyestergewebe an der Schweißnaht von der TPU-Schicht vollständig gelöst hat. Die TPU-Schicht ist noch intakt:
 
-![Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/plannedobsolescence_detached.svg) ![Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab](/assets/images/PolyesterTPUdetached.webp?resize=512,256)
+{% include gallery id="detachgal" caption="Das Polyestergwebe löst sich von der dünnen TPU-Schicht." %}
 
 Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird vielleicht nicht die gleiche Kratzfestigkeit der Oberfläche erreicht. Auch die allgemeine Zugfestigkeit ist bei gleicher Materialdicke geringer. Jedoch ist die Schweißnaht die Schwachstelle. Sie wird entlastet, weil das Grundmaterial elastischer ist. Die Kraft verteilt sich auf eine größere Fläche innerhalb der Schweißnaht. (grüne Ellipse)
 
