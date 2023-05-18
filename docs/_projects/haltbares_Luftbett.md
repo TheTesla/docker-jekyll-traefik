@@ -4,7 +4,7 @@ title: "haltbares Luftbett"
 subtitle: "Komfort-Luftbett aus TPU, langlebig, weichmacherfrei, allergenfrei, hygienisch"
 excerpt: "Der Entwurf dieses Luftbettes basiert auf der Analyse und Behebung der konstruktiven Schwächen unterschiedlicher Luftbetten und Camping-Luftmatratzen."
 header:
-  teaser: /assets/images/airbedonbed.webp
+  teaser: /assets/images/airbedonbed_thumb.webp
 canonical_url: "https://entroserv.de/Projekte/haltbares_Luftbett"
 categories:
   - Hardware
