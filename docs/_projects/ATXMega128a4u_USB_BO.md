@@ -4,7 +4,7 @@ title: "ATXMega128a4u USB"
 subtitle: "Entwicklungskit mit Atmel ATXMega128a4u USB-Mikroconroller"
 excerpt: "Das Entwicklungskit enthält einen 8-Bit-µC (echtes USB-Device) und passt auf das Breadboard. Programmiert wird er über den ISP-Header auf der Oberseite."
 header:
-  teaser: /assets/images/XMega128a4u_USB_BO.webp
+  teaser: /assets/images/XMega128a4u_USB_BO_thumb.webp
 categories:
   - Hardware
 tags:
