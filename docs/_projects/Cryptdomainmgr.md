@@ -184,4 +184,5 @@ Es ist auch möglich einen Eintrag einfach nur zu löschen bzw. sicherzustellen,
 
 ```bash
 python2 -m cryptdomainmgr --update /etc/cryptdomainmgr/inwxcred.conf --config-content $'[domain:test1234.entroserv.de] \n handler=dnsuptools/inwx \n ip4=none'
+```
 

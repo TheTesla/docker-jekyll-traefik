@@ -36,8 +36,6 @@ locale: de
 sass:
   style: compressed
 
-
-
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll 
