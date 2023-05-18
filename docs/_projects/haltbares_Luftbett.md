@@ -45,6 +45,24 @@ drawgal:
     image_path: /assets/images/inflated_thumb.webp 
     alt: "technische Zeichnung des aufgepumpten Luftbetts"
     title: "Maße aufgepumpt"
+brokegal:
+  - url: /assets/images/plasticizerrelease.webp 
+    image_path: /assets/images/plasticizerrelease_thumb.webp
+    alt: "Foto von blauer PVC-Fole mit ausgetretenem Weichmacher" 
+    titel: "Die glänzende Flüssigkeit ist aus der blauen PVC-Folie ausgetretener Weichmacher."
+  - url: /assets/images/roughPVC.webp
+    image_path: /assets/images/roughPVC_thumb.webp
+    alt: "Foto von sprödem PVC" 
+    titel: "Die Knicke entstehen, weil PVC ohne Weichmacher hart wird."
+  - url: /assets/images/plannedobsolescence_brokenpvc.svg
+    image_path: /assets/images/plannedobsolescence_brokenpvc.svg
+    alt: "Zeichnung gebrochene Schweißnaht PVC" 
+    titel: "Wird das hart gewordene PVC, dem Weichmacher fehlt, gebogen, bricht es auseinander."
+  - url: /assets/images/brokenseam.webp
+    image_path: /assets/images/brokenseam_thumb.webp
+    alt: "Foto von gebrochener Schweißnaht bei transparentem PVC" 
+    titel: "Die Schweißnaht an der transparenten PVC-Folie ist gebrochen, weil der Weichmacher fehlt."
+
 valvegal:
   - url: /assets/images/valveinflatephoto.webp
     image_path: /assets/images/valveinflatephoto_thumb.webp
@@ -124,17 +142,9 @@ Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird viel
 
 #### Luftbetten aus PVC
 
-Auch dicke PVC-Folie sollte lange halten. Damit PVC ausreichend elastisch wird, müssen Weichmacher eingebracht werden. Diese Weichmacher können z. B. bei Kontakt mit Fett aus dem Material austreten. Folgendes Foto zeigt den glänzenden Weichmacher, der aus der blauen PVC-Folie ausgetreten ist:
+Auch dicke PVC-Folie sollte lange halten. Damit PVC ausreichend elastisch wird, müssen Weichmacher eingebracht werden. Diese Weichmacher können, z. B. bei Kontakt mit Fett aus dem Material, austreten. Folgende Fotos zeigen das Schadensbild durch austrendem Weichmacher:
 
-![Foto von austretendem Weichmacher](/assets/images/plasticizerrelease.webp?resize=384,384)
-
-Dadurch wird das Material spröde. Es zerknittert:
-
-![Foto von sprödem PVC](/assets/images/roughPVC.webp?resize=384,384)
-
-Wird es dann stark gebogen, kann es brechen wie die Naht des transparenten PVC:
-
-![Zeichnung gebrochene Schweißnaht PVC](/assets/images/plannedobsolescence_brokenpvc.svg) ![Foto gebrochene Schweißnaht PVC](/assets/images/brokenseam.webp?resize=384,384)
+{% include gallery id="brokegal" caption="Schaden durch austrendem Weichmacher" %}
 
 ### Weitere konstruktive Mängel
 
