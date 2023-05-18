@@ -51,7 +51,7 @@ detachgal:
     alt: "Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab"
     titel: "Die beiden TPU-beschichteten Polyestergewebe-Tücher halten ausschließlich an der Beschichtung zusammen. Die gesamte Kraft wird von der dünnen TPU-Schicht gehalten. Sie kann sich daher vom Gewebe ablösen. Dies geschieht an der Stelle innerhalb der roten Markierung."
   - url: /assets/images/PolyesterTPUdetached.webp
-    image_path: /assets/images/PolyesterTPUdetached.webp
+    image_path: /assets/images/PolyesterTPUdetached_thumb.webp
     alt: "Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab"
     titel: "Die Schweißnaht der dünnen TPU-Schicht hält, aber das graue und grüne Polyestergewebe löst sich von dieser TPU-Beschichtung ab."
 
