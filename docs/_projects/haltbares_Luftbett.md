@@ -45,15 +45,30 @@ drawgal:
     image_path: /assets/images/inflated_thumb.webp 
     alt: "technische Zeichnung des aufgepumpten Luftbetts"
     title: "Maße aufgepumpt"
+compositgal:
+  - url:  /assets/images/plannedobsolescence_composite.svg
+    image_path: /assets/images/plannedobsolescence_composite.svg
+    alt: "Zeichnung Kräfte im Verbundmaterial nahe der Schweißnaht"
+    title: "Die Zugkraft verteilt sich auf einen sehr schmalen Bereich der Schweißnaht." 
+  - url: /assets/images/plannedobsolescence_broken.svg
+    image_path: /assets/images/plannedobsolescence_broken.svg
+    alt: "Zeichnung TPU-Beschichtung auf Polyestergewebe bricht an Schweißnaht"
+    title: "Weil sich die Kraft auf einem sehr kleinen Querschnitt in der Schweißnaht verteilt, wird diese überlastet und bricht."
+
+
 detachgal:
   - url: /assets/images/plannedobsolescence_detached.svg
     image_path: /assets/images/plannedobsolescence_detached.svg
     alt: "Zeichnung Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab"
-    titel: "Die beiden TPU-beschichteten Polyestergewebe-Tücher halten ausschließlich an der Beschichtung zusammen. Die gesamte Kraft wird von der dünnen TPU-Schicht gehalten. Sie kann sich daher vom Gewebe ablösen. Dies geschieht an der Stelle innerhalb der roten Markierung."
+    title: "Die beiden TPU-beschichteten Polyestergewebe-Tücher halten ausschließlich an der Beschichtung zusammen. Die gesamte Kraft wird von der dünnen TPU-Schicht gehalten. Sie kann sich daher vom Gewebe ablösen. Dies geschieht an der Stelle innerhalb der roten Markierung."
   - url: /assets/images/PolyesterTPUdetached.webp
     image_path: /assets/images/PolyesterTPUdetached_thumb.webp
     alt: "Foto Polyestergewebe löst sich von TPU-Beschichtung nahe der Schweißnaht ab"
-    titel: "Die Schweißnaht der dünnen TPU-Schicht hält, aber das graue und grüne Polyestergewebe löst sich von dieser TPU-Beschichtung ab."
+    title: "Die Schweißnaht der dünnen TPU-Schicht hält, aber das graue und grüne Polyestergewebe löst sich von dieser TPU-Beschichtung ab."
+  - url: /assets/images/plannedobsolescence_tpu.svg
+    image_path: /assets/images/plannedobsolescence_tpu.svg
+    alt: "Zeichnung einer robusten Schweißnaht dicker TPU-Folie"
+    title: "Wird anstelle einer Verbundfolie eine dicke TPU-Folie verwendet, wird die Schweißnaht entlastet, weil sich die Zugkraft in der Schweißnaht bei dem weicheren Material auf eine größere Fläche verteilt. Die grüne Markierung zeigt den Bereich, auf den sich die Zugkraft verteilt."
 
 brokegal:
   - url: /assets/images/plasticizerrelease.webp 
@@ -134,21 +149,18 @@ Viele Luftbetten haben mehrere Designschwächen, welche der Lebensdauer abträgl
 
 Folgendes Bild zeigt das Problem der Verbundstoffe. Nehmen wir an, Polyestergewebe (1 und 4) mit einer dünnen TPU-Beschichtung (2 und 3) wird verschweißt. (orange Linie zeigt Schweißnaht) Die dünne TPU-Schicht ist zwar sehr elastisch, aber nicht sehr zugfest. Das dickere Polyestergewebe ist zwar sehr zugfest aber wenig elastisch. Der Verbundstoff soll idealerweise elastisch und zugfest sein. In der Praxis funktioniert die Kombination nicht immer.
 
-![Zeichnung Kräfte im Verbundmaterial nahe der Schweißnaht](/assets/images/plannedobsolescence_composite.svg)
+{% include gallery id="compositgal" caption="Die Zugkraft konzentriert sich auf einen kleinen Querschnitt, dadurch bricht die Schweißnaht." %}
 
-Das Material an einer Außennaht des Luftbetts ist im Beispiel rechtwinklig nach außen gezogen. Der äußere Biegeradius befindet sich innen, d. h. auf der Seite der Schweißnaht bzw. TPU-Schicht. Weil TPU sehr elastisch ist, nimmt diese Schicht nur wenig der Zugkraft auf. Die meiste Kraft nimmt das Polyestergewebe. Da dieses Gewebe eine sehr geringe Elastizität hat, konzentriert sich fast die gesamte Kraft auf der längeren Seite der Biegung, da dort das Material am stärksten gedehnt ist. Die hohe Zugspannung ist im Bild mit langen Pfeilen visualisiert.
+Das Material an einer Außennaht des Luftbetts ist im Beispiel rechtwinklig nach außen gezogen. Der äußere Biegeradius befindet sich innen, d. h. auf der Seite der Schweißnaht bzw. TPU-Schicht. Weil TPU sehr elastisch ist, nimmt diese Schicht nur wenig der Zugkraft auf. Die meiste Kraft nimmt das Polyestergewebe auf. Da dieses Gewebe eine sehr geringe Elastizität hat, konzentriert sich fast die gesamte Kraft auf der längeren Seite der Biegung, da dort das Material am stärksten gedehnt ist. Die hohe Zugspannung ist im Bild mit langen Pfeilen visualisiert.
 
-Auch in der Schweißnaht konzentriert sich die gesamte Kraft auf eine kleine Fläche. (rote Ellipse) Die Schweißnaht besteht zwar aus elastischem TPU, da die Schicht aber sehr dünn ist, kann sie sich nicht weit genugt dehnen, damit sich die Kraft auf eine größere Fläche verteilen kann. Wegen der geringeren Zufestigkeit, reißt die TPU-Schicht dort auf, wie folgendes Bild zeigt:
+Auch in der Schweißnaht konzentriert sich die gesamte Kraft auf eine kleine Fläche. (rote Ellipse) Die Schweißnaht besteht zwar aus elastischem TPU, da die Schicht aber sehr dünn ist, kann sie sich nicht weit genugt dehnen, damit sich die Kraft auf eine größere Fläche verteilen kann. Wegen der geringeren Zufestigkeit, reißt die TPU-Schicht dort auf, wie das zweite Bild zeigt.
 
-![Zeichnung TPU-Beschichtung auf Polyestergewebe bricht an Schweißnaht](/assets/images/plannedobsolescence_broken.svg)
 
 Häufig ist jedoch die Verbindung zwischen dem Polyestergewebe und der TPU-Schicht schwächer als die TPU-Schicht selbst. In diesem Fall löst sich die TPU-Schicht vom Polyestergewebe. Das Foto zeigt, wie sich das Polyestergewebe an der Schweißnaht von der TPU-Schicht vollständig gelöst hat. Die TPU-Schicht ist noch intakt:
 
-{% include gallery id="detachgal" caption="Das Polyestergwebe löst sich von der dünnen TPU-Schicht." %}
+{% include gallery id="detachgal" caption="Das Polyestergwebe löst sich von der dünnen TPU-Schicht. Dickes TPU statt Verbundgewebe hält besser." %}
 
-Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird vielleicht nicht die gleiche Kratzfestigkeit der Oberfläche erreicht. Auch die allgemeine Zugfestigkeit ist bei gleicher Materialdicke geringer. Jedoch ist die Schweißnaht die Schwachstelle. Sie wird entlastet, weil das Grundmaterial elastischer ist. Die Kraft verteilt sich auf eine größere Fläche innerhalb der Schweißnaht. (grüne Ellipse)
-
-![Zeichnung einer robusten Schweißnaht dicker TPU-Folie](/assets/images/plannedobsolescence_tpu.svg)
+Wird anstelle des Verbundmaterials nur eine dicke TPU-Folie verwendet, wird vielleicht nicht die gleiche Kratzfestigkeit der Oberfläche erreicht. Auch die allgemeine Zugfestigkeit ist bei gleicher Materialdicke geringer. Jedoch wird die Schweißnaht entlastet, weil das Grundmaterial elastischer ist. Die Kraft verteilt sich auf eine größere Fläche innerhalb der Schweißnaht. (grüne Ellipse)
 
 #### Luftbetten aus PVC
 
