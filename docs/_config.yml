@@ -43,13 +43,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll_picture_tag
-
-picture:
-  source: /assets/images
-  output: /assets/genimages
-  defaults:
-    dimension_attributes: true
 
 
 #minimal_mistakes_skin: "air" #"default" ,  "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
