@@ -1,8 +1,8 @@
 ---
 layout: single 
 title: "smarter Screenshot"
-subtitle: "Bildschirmfoto mit Quellennachweis, Metadaten und unveränderten Originaldateien"
-excerpt: "Der smarte Screenshot soll neben dem eigentlich Bildinhalt auch die Herkunft erfassen. Abfotografierter Text bleibt auch erhalten."
+subtitle: "Bildschirmfoto mit Quellennachweis, Metadaten und Originaldateien"
+excerpt: "Der smarte Screenshot soll neben dem eigentlichen Bildinhalt auch die Herkunft und weiteren Kontext erfassen. Abfotografierter Text bleibt ebenfalls erhalten."
 #header:
 #  teaser: /assets/images/airbedonbed_thumb.webp
 #canonical_url: ""
