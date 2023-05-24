@@ -11,3 +11,7 @@ categories:
 tags:
   - Idee
 ---
+
+Asymmetrische Kryptoverfahren haben den großen Vorteil __nicht__ auf ein geteiltes Geheimnis zu beruhen. Der private Schlüssel verlässt nie die sich authentifizierende Entität. Der private Schlüssel kann unmittelbar gespeichert oder aus einem Geheimnis abgeleitet werden.
+
+
