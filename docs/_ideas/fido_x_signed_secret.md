@@ -13,7 +13,7 @@ tags:
   - Idee
 ---
 
-Asymmetrische Kryptoverfahren haben den großen Vorteil __nicht__ auf ein geteiltes Geheimnis zu beruhen. Der private Schlüssel verlässt nie die sich authentifizierende Entität. Der private Schlüssel kann unmittelbar gespeichert oder aus einem Geheimnis abgeleitet werden.
+Asymmetrische Kryptoverfahren haben den großen Vorteil __nicht__ auf ein geteiltes Geheimnis (=Secret) zu beruhen. Der private Schlüssel verlässt nie die sich authentifizierende Entität. Der private Schlüssel kann unmittelbar gespeichert oder aus einem Geheimnis abgeleitet werden.
 
 Wichtig ist die Authentizität: Das Gegenüber benötigt einen Nachweis über die eindeutige Zuordnung des öffentlichen Schlüssels zu der korrekten Entität bzw. Person. Das ermöglicht u. a. der Standard X.509. Eine CA signiert den öffentlichen Schlüssel und Angaben zur eindutigen Identifikation der Entität mit ihrem eigenen privaten schlüssel. Der Kommunikationspartner kann die Korrektheit der Signatur prüfen, um festzustellen, ob es sich bspw. um den öffentlichen Schlüssel dieser einen Person mit dem Namen, Adresse und Telefonnumer handelt.
 
@@ -27,7 +27,7 @@ Die Alternative nach dem Standard FIDO2 löst dieses Problem, indem aus einem Se
 
 Es müsste eine Möglichkeit geben, das Secret zu signieren ohne es der CA zugänglich zu machen. Auch der private Schlüssel der CA soll dabei nciht herausgegeben werden. Die von der Signatur abgeleiteten öffentlichen Schlüssel sollen gegenüber der Signatur prüfbar sein. Die Lösung muss daher auf Zero-Knowlegde-Proof basieren.
 
-Die Idee ist nun: Von dem Secret wird zunächst ein Hash-Wert abgeleitet, welcher von der CA signiert wird. Aus dem Secret und der RP-Entity-ID wird das jeweilige Pairwise-Schlüsselpaar berechnet. Der Zero-Knowledge-Proof-Algorithmus ermöglich der RP folgende Frage zu beantoworten: "Sind Signatur und öffentlicher Schlüssel aus einem gemeinsamen Wert (Secret) abgeleitet?"
+Die Idee ist nun: Von dem Secret wird zunächst ein Hash-Wert abgeleitet, welcher von der CA signiert wird. Aus dem Secret und der RP-Entity-ID wird das jeweilige Pairwise-Schlüsselpaar berechnet. Der Zero-Knowledge-Proof-Algorithmus ermöglich der RP folgende Frage zu beantworten: "Sind Signatur und öffentlicher Schlüssel aus einem gemeinsamen Wert (Secret) abgeleitet?"
 
 
 
