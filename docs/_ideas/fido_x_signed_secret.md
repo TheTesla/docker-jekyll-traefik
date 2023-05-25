@@ -23,5 +23,11 @@ Der selbe Nutzer kann Nutzerkonten bei mehreren Diensten haben. Nutzt er für al
 
 Der Nutzer könnte sich mehrere X.509-Zertifikate mit unterschiedlichen IDs und unterschiedlichen öffentlichen Schlüsseln von der CA ausstellen lassen, ein Zertifikat pro Dienst. Das skaliert nicht, ist umständlich und erfordert die Aufbewahrung vieler privater Schlüssel durch den Nutzer.
 
-Die Alternative nach dem Standard FIDO2 löst dieses Problem, indem aus einem Secret beliebig viele Schlüsselpaare abgeleitet werden können.
+Die Alternative nach dem Standard FIDO2 löst dieses Problem, indem aus einem Secret beliebig viele Schlüsselpaare abgeleitet werden können. Es wird nur das Secret gespeichert. Die Schlüsselpaare werden bei Verwendung immer wieder neu aus dem Secret und der RP-Entity-ID berechnet. Soll der öffentliche Schlüssel durch eine CA signiert werden, tritt wieder das Problem auf, dass jeder abgeleitete Schlüssel einzeln signiert und die jeweilige Signatur gespeichert werden muss. 
+
+Es müsste eine Möglichkeit geben, das Secret zu signieren ohne es der CA zugänglich zu machen. Auch der private Schlüssel der CA soll dabei nciht herausgegeben werden. Die von der Signatur abgeleiteten öffentlichen Schlüssel sollen gegenüber der Signatur prüfbar sein. Die Lösung muss daher auf Zero-Knowlegde-Proof basieren.
+
+Die Idee ist nun: Von dem Secret wird zunächst ein Hash-Wert abgeleitet, welcher von der CA signiert wird. Aus dem Secret und der RP-Entity-ID wird das jeweilige Pairwise-Schlüsselpaar berechnet. Der Zero-Knowledge-Proof-Algorithmus ermöglich der RP folgende Frage zu beantoworten: "Sind Signatur und öffentlicher Schlüssel aus einem gemeinsamen Wert (Secret) abgeleitet?"
+
+
 
