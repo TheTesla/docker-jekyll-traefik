@@ -43,6 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-diagrams
 
 
 #minimal_mistakes_skin: "air" #"default" ,  "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
