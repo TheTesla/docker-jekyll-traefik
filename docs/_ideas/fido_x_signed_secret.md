@@ -13,12 +13,20 @@ tags:
 ---
 
 
-{% blockdiag %}
-blockdiag {
-   A -> B -> C -> D;
-   A -> E -> F -> G;
+{% actdiag %}
+actdiag {
+   Secret -> add;
+   EntityID -> add;
+  lane CA {
+  }
+  lane Crypto-Device {
+    Secret; combine;
+  }
+  lane Service{
+    EntityID;
+  }
 }
-{% endblockdiag %}
+{% endactdiag %}
 
 
 Asymmetrische Kryptoverfahren haben den großen Vorteil __nicht__ auf ein geteiltes Geheimnis (=Secret) zu beruhen. Der private Schlüssel verlässt nie die sich authentifizierende Entität. Der private Schlüssel kann unmittelbar gespeichert oder aus einem Geheimnis abgeleitet werden.
