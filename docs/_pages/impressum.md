@@ -38,13 +38,13 @@ Wir sind zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbrauchers
 ## Bankdaten
 
 Bank
-: Fidor Bank AG
+: FYRST
 
 IBAN
-: DE42 7002 2200 0020 0308 60
+: DE95 1001 0010 0065 6581 42
 
 BIC
-: FDDODEMMXXX
+: PBNKDEFF
 
 
 

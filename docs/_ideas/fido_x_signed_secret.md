@@ -12,15 +12,6 @@ tags:
   - Idee
 ---
 
-
-{% blockdiag %}
-blockdiag {
-   A -> B -> C -> D;
-   A -> E -> F -> G;
-}
-{% endblockdiag %}
-
-
 Asymmetrische Kryptoverfahren haben den großen Vorteil __nicht__ auf ein geteiltes Geheimnis (=Secret) zu beruhen. Der private Schlüssel verlässt nie die sich authentifizierende Entität. Der private Schlüssel kann unmittelbar gespeichert oder aus einem Geheimnis abgeleitet werden.
 
 Wichtig ist die Authentizität: Das Gegenüber benötigt einen Nachweis über die eindeutige Zuordnung des öffentlichen Schlüssels zu der korrekten Entität bzw. Person. Das ermöglicht u. a. der Standard X.509. Eine CA signiert den öffentlichen Schlüssel und Angaben zur eindutigen Identifikation der Entität mit ihrem eigenen privaten schlüssel. Der Kommunikationspartner kann die Korrektheit der Signatur prüfen, um festzustellen, ob es sich bspw. um den öffentlichen Schlüssel dieser einen Person mit dem Namen, Adresse und Telefonnumer handelt.
