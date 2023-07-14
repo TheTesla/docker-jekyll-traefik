@@ -35,7 +35,7 @@ feature_row:
     alt: "Symbolfoto Wissen"
     title: "Wissen"
     excerpt: "wie die Welt funktioniert; warum die Dinge so sind, wie sie sind"
-    url: "/Wissen"
+    url: "/Artikel"
     btn_label: "Mehr dazu"
     btn_class: "btn--primary"
 
