@@ -14,7 +14,8 @@ sidebar:
   - title: "xyzCad"
     image: /assets/images/xyzCad.webp
     image_alt: "Symbolfoto 3D-gedruckte Teile, entworfen mit xyzCad"
-    text: "[GitHub](https://github.com/TheTesla/xyzcad){: .btn .btn--info}"
+    text: "[GitHub - xyzCad](https://github.com/TheTesla/xyzcad){: .btn .btn--info}"
+  - text: "[GitHub - Beispiele](https://github.com/TheTesla/xyzcad-examples){: .btn .btn--info}"
   - text: "[Telegram](https://t.me/xyzcad_de_grp){: .btn .btn--info}"
     
 ---
