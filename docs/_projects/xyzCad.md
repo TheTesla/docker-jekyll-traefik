@@ -71,5 +71,62 @@ Die Berechnung dauert einige Sekunden. Nach Abschluss ist das 3D-Modell unter de
 view3dscene sphere.stl
 ```
 
-Es ist eine Kugel mit dem Radius `r = 10` mm.
+Es ist eine Kugel mit dem Radius `r = 10` mm. Diese wird durch die Ungleichung `r**2 > x**2 + y**2 + z**2` beschrieben. Sie ist für alle Punkte im Raum erfüllt, welche innerhalb des Radius `r` um den Koordinatenursprung liegen. Diese Gleichung wird in die Funktion `f(x,y,z)` gekapselt. Das erlaubt die Übergabe der Ungleichung an `xyzcad`, welches die STL-Datei `sphere.stl` daraus erzeugt. Aufgerufen wird es mit `render.renderAndSave(f, 'sphere.stl', 0.3)`.
+
+Der Wert `0.3` bestimmt die Auflösung. Der Raum wird dadurch in Würfel mit 0,3 mm Kantenlänge eingeteilt. Die Position der Oberfläche, welche den Würfel schneidet kann viel genauer sein. Es ist jedoch nicht möglich eine komplexe Geometrie innerhalb des Würfels unterzubringen. Die Auflösung bestimmt damit eher den Detailgrad als die Maßgenauigkeit. 
+
+Der Decorator `@jit` gibt die Funktion `f(x,y,z)` dem `numba`-Compiler. Nur dadurch läuft die aufwendige Berechnung in annehmbarer Zeit ab. Mit `nopython=True` wird ein eingeschränkter Funktionsfumfang zugunsten einer viel höheren Rechengeschwindigkeit gewählt. Die Einschränkung besteht darin, dass der Compiler alle Datentypen aller Variablen herausfinden kann, bevor der Code ausgeführt wird. Sobald ein Zwischenergebnis den Datentyp einer Variable bzw. eines Elements in einer Liste bestímmt oder bestimmte nicht unterstützte Datentypen verwendet werden, bricht der Compiler mit einer Fehlermeldung ab. 
+
+### Grenzen
+
+Es sind wichtige Einschränkungen zu beachten. Das 3D-Modell muss eine beschränkte Größe haben. Ein unendlich langes Objekt wird ohne Fehlermeldung verarbeitet. Die Rechenzeit und der benötigte Speicherplatz sind in diesem Fall unendlich.
+
+Das Modell muss aus genau einem zusammenhängenden Volumen bestehen. Mehrere nicht miteinander verbundene Elemente können zwar beschrieben werden, es wird jedoch nur eines davon in eine STL-Datei umgewandelt. Welches das ist, ist als zufällig zu betrachten.
+
+Der leere Raum um das Modell herum darf ebenfalls nur exakt ein zusammenhängendes Volumen sein. Ein Hohlraum, welche nicht mit der Umgebung verbunden ist, wird u. U. einfach ausgefüllt. Dieser Hohlraum kann auch die gesamte Umgebung sein. Technisch gesehen, ist es dann ein unendlich großes Objekt ohne äußere Hülle, aber mit einem kleinen Hohlraum. Praktisch ist das Verhalten eines Slicers, welcher die STL-Datei verarbeiten soll, nicht definiert.
+
+STL-Dateien beschreiben nur die Oberflächen von Objekten. Ein geschlossenes Volumen gilt als gefüllt, wenn die Oberfläche konvex ist. Das bedeutet, die Außenseite der Oberfläche ist nach außen gerichtet und die Innenseite zeigt damit in das mit Material gefüllte Volumen hinein. 
+
+Besonders dünne Objekte oder sehr enge Öffnungen können, bei einer grob eingestellten Auflösung, Probleme verursachen. Die Außenseite der einen Objektoberfläche kann vom Algorithmus mit der Innenseite der gegenüberliegenden Objektoberfläche "verwechselt" werden. Es entsteht dann ein beschädigtes STL-Format. Ein Slicer wird versuchen diese STL-Datei zu reparieren und daran scheitern. Das Ergebnis ist moderne Kunst.
+
+### Tipps und Tricks
+
+Um unerwünschte Überraschungen zu vermeiden, können einige Maßnahmen getroffen werden:
+
+Damit nicht versehentlich unendlich große Objekte entstehen, sollten zunächst äußere Schranken definiert werden:
+
+```python
+def f(x,y,z):
+    if z < 0:
+        return False
+    if z > 100:
+        return False
+    if x < -200:
+        return False
+    if x > 200:
+        return False
+    if y < -200:
+        return False
+    if y > 200:
+        return False
+```
+
+Diese 6 `if`-Bedingungen am Anfang der funktion `f(x,y,z)` beschränken den Bauraum. Ein Objekt, das darüber hinausragt, wird einfach abgeschnitten.
+
+Einzelne Geometrien in Funktionen auszulagern, hilft nicht nur den Überblick zu behalten, sondern auch Elemente wiederzuverwenden und komplexe Modelle mit wenig Code zusammenzubauen:
+ 
+```python
+def sphere(x,y,z,r=1):
+    return r**2 > x**2 + y**2 + z**2
+
+def f(x,y,z):
+   if sphere(x-10,y,z,5):
+	return False
+   return sphere(x,y,z,10)
+```
+
+Das Beispiel zeigt mehrere Entwurfsmuster. Eine parametrisierte Kugel wird durch die Funktion `sphere(x,y,z,r=1)` realisiert. Das Argument `r` bestimmt den Radius. In der Funktion `f(x,y,z)` wird diese Kugel zweimal verwendet. Eine Kugel mit `10` mm Radius befindet sich im Koordinatenursprung. Von ihr wird eine Kugel mit `5` mm Radius ausgeschnitten. Dieser kugelförmige Ausschnitt ist `10` mm entlang der `x`-Achse verschoben.
+
+Die Priorisierung, welches Objekt von welchem weggeschnitten werden soll, wird anhand der Befehlsabfolge festgelegt. Je früher das `return` innerhalb der Funktion ausgeführt wird, um so höher ist die zugehörige Priorität, denn sobald das `return` aufgerufen wurde, wird nachfolgender Code nicht mehr erreicht. Die Kugel wird mit `return False` invertiert. 
+
 
