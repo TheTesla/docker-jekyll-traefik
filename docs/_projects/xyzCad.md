@@ -94,6 +94,8 @@ Besonders dünne Objekte oder sehr enge Öffnungen können, bei einer grob einge
 
 Um unerwünschte Überraschungen zu vermeiden, können einige Maßnahmen getroffen werden:
 
+#### Größenbeschränkung
+
 Damit nicht versehentlich unendlich große Objekte entstehen, sollten zunächst äußere Schranken definiert werden:
 
 ```python
@@ -114,6 +116,8 @@ def f(x,y,z):
 
 Diese 6 `if`-Bedingungen am Anfang der funktion `f(x,y,z)` beschränken den Bauraum. Ein Objekt, das darüber hinausragt, wird einfach abgeschnitten.
 
+#### Strukturierung mit Funktionen
+
 Einzelne Geometrien in Funktionen auszulagern, hilft nicht nur den Überblick zu behalten, sondern auch Elemente wiederzuverwenden und komplexe Modelle mit wenig Code zusammenzubauen:
  
 ```python
@@ -129,5 +133,39 @@ def f(x,y,z):
 Das Beispiel zeigt mehrere Entwurfsmuster. Eine parametrisierte Kugel wird durch die Funktion `sphere(x,y,z,r=1)` realisiert. Das Argument `r` bestimmt den Radius. In der Funktion `f(x,y,z)` wird diese Kugel zweimal verwendet. Eine Kugel mit `10` mm Radius befindet sich im Koordinatenursprung. Von ihr wird eine Kugel mit `5` mm Radius ausgeschnitten. Dieser kugelförmige Ausschnitt ist `10` mm entlang der `x`-Achse verschoben.
 
 Die Priorisierung, welches Objekt von welchem weggeschnitten werden soll, wird anhand der Befehlsabfolge festgelegt. Je früher das `return` innerhalb der Funktion ausgeführt wird, um so höher ist die zugehörige Priorität, denn sobald das `return` aufgerufen wurde, wird nachfolgender Code nicht mehr erreicht. Die Kugel wird mit `return False` invertiert. 
+
+#### Wiederholung
+
+Um mehrere mehrere gleichartige oder ähnliche Formen zu erzeugen, wäre der erste Gedanke, die jeweilige Form zunächst als Funktion zu beschreiben und diese anschließend mit einer `for`-Schleifemehrfach einzubauen und bei Bedarf die Parameter abhängig vom Schleifenindex zu berechnen. Das ist jedoch eleganter lösbar.
+
+Die Wiederholung einer Form kann mit einer Modulo-Operation beschrieben werden. Parameter können bei Bedarf mit einer ortsabhängigen Fallunterscheidung modifiziert werden. Das folgende Beispiel zeigt die Wiederholung eines zylindrischen Bohrung in einer Platte mit Hilfe der Modulo-Operation: 
+
+```python
+def cylinder(x,y,r=1):
+    return r**2 > x**2 + y**2
+
+def f(x,y,z):
+    rc = 3
+    dc = 10
+    if z < 0:
+        return False
+    if z > 10:
+        return False
+    if x < -50:
+        return False
+    if x > 50:
+        return False
+    if y < -50:
+        return False
+    if y > 50:
+        return False
+    if cylinder((x + dc/2) % dc - dc/2, (y + dc/2) % dc - dc/2, rc):
+        return False
+    return True
+```
+
+Die ersten 6 `if` Bedingungen grenzen die Platte ab. Sie ist 10 mm hoch, 100 mm breit und 100 mm lang. Die zylindrische Aussparung hat einen Radius von `rc = 3` mm. Sie soll sowohl in `x` als auch `y` Richtung alle `dc = 10` mm unbegrenzt wiederholt werden. Anstatt die Koordinaten `x` und `y` direkt an die Zylinder-Funktion zu übergeben, werden sie modifiziert. Die Modulo-Opertaion `% dc` bewirkt eine endlose Wiederholung aller Werte zwischen 0 und `dc` für das jeweilige Funktions-Argument, wenn `x` bzw. `y` weiter fortschreiten.
+
+Die naheliegende Idee nur Modulo hinzuzufügen: `cylinder(x % dc, y % dc, rc)` liefert jedoch nicht das gewünschte Ergebnis. Es entstehen viele Viertel-Zylinder. Es fehlen die negativen Werte für die beiden Koordinaten-Argumente. Anstatt Werte von 0 bis `dc` zu übergeben, ist es notwendig, dass jede Koordinate bei mindestens `-rc` beginnt. Das wird sicher erreicht, indem das `- dc/2`den Bereich auf `-dc/` bis `+dc/2` verschiebt. Dieser Offset verschiebt alle Löcher um `-dc/2` auf beiden Koordinatenachsen. Das kann durch ein `+ dc/2` vor der Modulo-Berechnung ausgeglichen werden. So ist auf jeden Fall ein zylindrisches Loch genau im Koordinatenursprung.
 
 
