@@ -8,6 +8,7 @@ services:
           - entroserv.de
     image: "traefik:v2.4"
     container_name: "traefik"
+    restart: always
     command:
       - "--api.insecure=true"
       - "--providers.docker=true"
@@ -30,6 +31,7 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
       - "./configuration/:/configuration/"
       - "./cdmconf/:/etc/cryptdomainmgr"
+    restart: always
     command:
       - "[cdm]    postwait=86400"
 
